@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\bin\Debug\netcoreapp2.1\03-QuestJournal.deps.json
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\bin\Debug\netcoreapp2.1\03-QuestJournal.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\bin\Debug\netcoreapp2.1\03-QuestJournal.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\bin\Debug\netcoreapp2.1\03-QuestJournal.dll
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\bin\Debug\netcoreapp2.1\03-QuestJournal.pdb
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\obj\Debug\netcoreapp2.1\03-QuestJournal.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\obj\Debug\netcoreapp2.1\03-QuestJournal.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\obj\Debug\netcoreapp2.1\03-QuestJournal.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\obj\Debug\netcoreapp2.1\03-QuestJournal.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\obj\Debug\netcoreapp2.1\03-QuestJournal.dll
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\03-QuestJournal\obj\Debug\netcoreapp2.1\03-QuestJournal.pdb

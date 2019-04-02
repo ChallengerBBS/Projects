@@ -1,0 +1,10 @@
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\bin\Debug\netcoreapp2.1\LAB-11-Calculations.deps.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\bin\Debug\netcoreapp2.1\LAB-11-Calculations.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\bin\Debug\netcoreapp2.1\LAB-11-Calculations.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\bin\Debug\netcoreapp2.1\LAB-11-Calculations.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\bin\Debug\netcoreapp2.1\LAB-11-Calculations.pdb
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\obj\Debug\netcoreapp2.1\LAB-11-Calculations.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\obj\Debug\netcoreapp2.1\LAB-11-Calculations.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\obj\Debug\netcoreapp2.1\LAB-11-Calculations.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\obj\Debug\netcoreapp2.1\LAB-11-Calculations.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-11-Calculations\obj\Debug\netcoreapp2.1\LAB-11-Calculations.pdb

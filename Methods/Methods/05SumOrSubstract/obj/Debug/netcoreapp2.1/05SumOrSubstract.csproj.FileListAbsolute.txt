@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\bin\Debug\netcoreapp2.1\05SumOrSubstract.deps.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\bin\Debug\netcoreapp2.1\05SumOrSubstract.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\bin\Debug\netcoreapp2.1\05SumOrSubstract.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\bin\Debug\netcoreapp2.1\05SumOrSubstract.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\bin\Debug\netcoreapp2.1\05SumOrSubstract.pdb
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\obj\Debug\netcoreapp2.1\05SumOrSubstract.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\obj\Debug\netcoreapp2.1\05SumOrSubstract.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\obj\Debug\netcoreapp2.1\05SumOrSubstract.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\obj\Debug\netcoreapp2.1\05SumOrSubstract.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\obj\Debug\netcoreapp2.1\05SumOrSubstract.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\05SumOrSubstract\obj\Debug\netcoreapp2.1\05SumOrSubstract.pdb

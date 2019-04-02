@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\bin\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.deps.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\bin\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\bin\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\bin\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\bin\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.pdb
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\obj\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\obj\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\obj\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\obj\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\obj\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01SumAdjacentOfNumbers\obj\Debug\netcoreapp2.1\01SumAdjacentEqualNumbers.pdb

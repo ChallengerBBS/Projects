@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\bin\Debug\netcoreapp2.1\06CardsGame.deps.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\bin\Debug\netcoreapp2.1\06CardsGame.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\bin\Debug\netcoreapp2.1\06CardsGame.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\bin\Debug\netcoreapp2.1\06CardsGame.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\bin\Debug\netcoreapp2.1\06CardsGame.pdb
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\obj\Debug\netcoreapp2.1\06CardsGame.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\obj\Debug\netcoreapp2.1\06CardsGame.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\obj\Debug\netcoreapp2.1\06CardsGame.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\obj\Debug\netcoreapp2.1\06CardsGame.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\obj\Debug\netcoreapp2.1\06CardsGame.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\06CardsGame\obj\Debug\netcoreapp2.1\06CardsGame.pdb

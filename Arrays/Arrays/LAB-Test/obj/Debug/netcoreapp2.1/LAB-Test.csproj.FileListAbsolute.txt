@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\bin\Debug\netcoreapp2.1\LAB-Test.deps.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\bin\Debug\netcoreapp2.1\LAB-Test.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\bin\Debug\netcoreapp2.1\LAB-Test.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\bin\Debug\netcoreapp2.1\LAB-Test.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\bin\Debug\netcoreapp2.1\LAB-Test.pdb
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\obj\Debug\netcoreapp2.1\LAB-Test.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\obj\Debug\netcoreapp2.1\LAB-Test.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\obj\Debug\netcoreapp2.1\LAB-Test.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\obj\Debug\netcoreapp2.1\LAB-Test.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\obj\Debug\netcoreapp2.1\LAB-Test.pdb
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\LAB-Test\obj\Debug\netcoreapp2.1\LAB-Test.csprojAssemblyReference.cache

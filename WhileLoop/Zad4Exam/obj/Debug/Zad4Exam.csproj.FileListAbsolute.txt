@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad4Exam\bin\Debug\Zad4Exam.exe.config
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad4Exam\bin\Debug\Zad4Exam.exe
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad4Exam\bin\Debug\Zad4Exam.pdb
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad4Exam\obj\Debug\Zad4Exam.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad4Exam\obj\Debug\Zad4Exam.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad4Exam\obj\Debug\Zad4Exam.exe
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad4Exam\obj\Debug\Zad4Exam.pdb

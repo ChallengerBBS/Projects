@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\bin\Debug\netcoreapp2.1\01-ValidUserName.deps.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\bin\Debug\netcoreapp2.1\01-ValidUserName.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\bin\Debug\netcoreapp2.1\01-ValidUserName.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\bin\Debug\netcoreapp2.1\01-ValidUserName.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\bin\Debug\netcoreapp2.1\01-ValidUserName.pdb
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\obj\Debug\netcoreapp2.1\01-ValidUserName.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\obj\Debug\netcoreapp2.1\01-ValidUserName.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\obj\Debug\netcoreapp2.1\01-ValidUserName.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\obj\Debug\netcoreapp2.1\01-ValidUserName.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\obj\Debug\netcoreapp2.1\01-ValidUserName.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\ConsoleApp1\obj\Debug\netcoreapp2.1\01-ValidUserName.pdb

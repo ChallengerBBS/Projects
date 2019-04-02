@@ -1,0 +1,6 @@
+C:\Users\petar\source\repos\Solution20181110_for_loops\Alfabet\bin\Debug\Alfabet.exe.config
+C:\Users\petar\source\repos\Solution20181110_for_loops\Alfabet\bin\Debug\Alfabet.exe
+C:\Users\petar\source\repos\Solution20181110_for_loops\Alfabet\bin\Debug\Alfabet.pdb
+C:\Users\petar\source\repos\Solution20181110_for_loops\Alfabet\obj\Debug\Alfabet.csproj.CoreCompileInputs.cache
+C:\Users\petar\source\repos\Solution20181110_for_loops\Alfabet\obj\Debug\Alfabet.exe
+C:\Users\petar\source\repos\Solution20181110_for_loops\Alfabet\obj\Debug\Alfabet.pdb

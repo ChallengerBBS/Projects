@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\bin\Debug\netcoreapp2.1\07-CharExplosion.deps.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\bin\Debug\netcoreapp2.1\07-CharExplosion.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\bin\Debug\netcoreapp2.1\07-CharExplosion.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\bin\Debug\netcoreapp2.1\07-CharExplosion.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\bin\Debug\netcoreapp2.1\07-CharExplosion.pdb
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\obj\Debug\netcoreapp2.1\07-CharExplosion.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\obj\Debug\netcoreapp2.1\07-CharExplosion.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\obj\Debug\netcoreapp2.1\07-CharExplosion.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\obj\Debug\netcoreapp2.1\07-CharExplosion.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\obj\Debug\netcoreapp2.1\07-CharExplosion.pdb
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\07-CharExplosion\obj\Debug\netcoreapp2.1\07-CharExplosion.csprojAssemblyReference.cache

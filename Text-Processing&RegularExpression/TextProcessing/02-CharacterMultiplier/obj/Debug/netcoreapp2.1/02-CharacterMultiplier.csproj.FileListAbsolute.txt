@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\bin\Debug\netcoreapp2.1\02-CharacterMultiplier.deps.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\bin\Debug\netcoreapp2.1\02-CharacterMultiplier.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\bin\Debug\netcoreapp2.1\02-CharacterMultiplier.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\bin\Debug\netcoreapp2.1\02-CharacterMultiplier.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\bin\Debug\netcoreapp2.1\02-CharacterMultiplier.pdb
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\obj\Debug\netcoreapp2.1\02-CharacterMultiplier.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\obj\Debug\netcoreapp2.1\02-CharacterMultiplier.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\obj\Debug\netcoreapp2.1\02-CharacterMultiplier.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\obj\Debug\netcoreapp2.1\02-CharacterMultiplier.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\obj\Debug\netcoreapp2.1\02-CharacterMultiplier.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\02-CharacterMultiplier\obj\Debug\netcoreapp2.1\02-CharacterMultiplier.pdb

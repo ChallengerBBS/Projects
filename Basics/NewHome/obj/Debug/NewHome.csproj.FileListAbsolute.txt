@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\AZsd\NewHome\bin\Debug\NewHome.exe.config
+C:\Users\Challenger\Desktop\C#\AZsd\NewHome\bin\Debug\NewHome.exe
+C:\Users\Challenger\Desktop\C#\AZsd\NewHome\bin\Debug\NewHome.pdb
+C:\Users\Challenger\Desktop\C#\AZsd\NewHome\obj\Debug\NewHome.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AZsd\NewHome\obj\Debug\NewHome.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AZsd\NewHome\obj\Debug\NewHome.exe
+C:\Users\Challenger\Desktop\C#\AZsd\NewHome\obj\Debug\NewHome.pdb

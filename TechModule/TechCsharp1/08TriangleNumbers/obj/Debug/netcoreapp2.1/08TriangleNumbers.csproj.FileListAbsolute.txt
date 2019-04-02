@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\bin\Debug\netcoreapp2.1\08TriangleNumbers.deps.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\bin\Debug\netcoreapp2.1\08TriangleNumbers.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\bin\Debug\netcoreapp2.1\08TriangleNumbers.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\bin\Debug\netcoreapp2.1\08TriangleNumbers.dll
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\bin\Debug\netcoreapp2.1\08TriangleNumbers.pdb
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\obj\Debug\netcoreapp2.1\08TriangleNumbers.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\obj\Debug\netcoreapp2.1\08TriangleNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\obj\Debug\netcoreapp2.1\08TriangleNumbers.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\obj\Debug\netcoreapp2.1\08TriangleNumbers.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\obj\Debug\netcoreapp2.1\08TriangleNumbers.dll
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\08TriangleNumbers\obj\Debug\netcoreapp2.1\08TriangleNumbers.pdb

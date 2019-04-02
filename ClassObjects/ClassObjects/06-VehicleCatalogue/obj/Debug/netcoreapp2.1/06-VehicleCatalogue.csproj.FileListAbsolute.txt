@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\bin\Debug\netcoreapp2.1\06-VehicleCatalogue.deps.json
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\bin\Debug\netcoreapp2.1\06-VehicleCatalogue.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\bin\Debug\netcoreapp2.1\06-VehicleCatalogue.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\bin\Debug\netcoreapp2.1\06-VehicleCatalogue.dll
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\bin\Debug\netcoreapp2.1\06-VehicleCatalogue.pdb
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\obj\Debug\netcoreapp2.1\06-VehicleCatalogue.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\obj\Debug\netcoreapp2.1\06-VehicleCatalogue.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\obj\Debug\netcoreapp2.1\06-VehicleCatalogue.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\obj\Debug\netcoreapp2.1\06-VehicleCatalogue.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\obj\Debug\netcoreapp2.1\06-VehicleCatalogue.dll
+C:\Users\Challenger\Desktop\C#\ClassObjects\ClassObjects\06-VehicleCatalogue\obj\Debug\netcoreapp2.1\06-VehicleCatalogue.pdb

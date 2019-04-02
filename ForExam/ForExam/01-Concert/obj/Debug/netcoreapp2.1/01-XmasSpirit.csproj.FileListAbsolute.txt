@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\bin\Debug\netcoreapp2.1\01-XmasSpirit.deps.json
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\bin\Debug\netcoreapp2.1\01-XmasSpirit.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\bin\Debug\netcoreapp2.1\01-XmasSpirit.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\bin\Debug\netcoreapp2.1\01-XmasSpirit.dll
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\bin\Debug\netcoreapp2.1\01-XmasSpirit.pdb
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\obj\Debug\netcoreapp2.1\01-XmasSpirit.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\obj\Debug\netcoreapp2.1\01-XmasSpirit.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\obj\Debug\netcoreapp2.1\01-XmasSpirit.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\obj\Debug\netcoreapp2.1\01-XmasSpirit.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\obj\Debug\netcoreapp2.1\01-XmasSpirit.dll
+C:\Users\Challenger\Desktop\C#\ForExam\ForExam\01-Concert\obj\Debug\netcoreapp2.1\01-XmasSpirit.pdb

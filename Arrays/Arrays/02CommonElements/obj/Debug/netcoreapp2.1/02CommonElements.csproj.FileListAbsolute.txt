@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\bin\Debug\netcoreapp2.1\02CommonElements.deps.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\bin\Debug\netcoreapp2.1\02CommonElements.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\bin\Debug\netcoreapp2.1\02CommonElements.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\bin\Debug\netcoreapp2.1\02CommonElements.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\bin\Debug\netcoreapp2.1\02CommonElements.pdb
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\obj\Debug\netcoreapp2.1\02CommonElements.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\obj\Debug\netcoreapp2.1\02CommonElements.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\obj\Debug\netcoreapp2.1\02CommonElements.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\obj\Debug\netcoreapp2.1\02CommonElements.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\obj\Debug\netcoreapp2.1\02CommonElements.pdb
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\02CommonElements\obj\Debug\netcoreapp2.1\02CommonElements.csprojAssemblyReference.cache

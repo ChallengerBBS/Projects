@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\bin\Debug\netcoreapp2.1\12-SoftUniBar.deps.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\bin\Debug\netcoreapp2.1\12-SoftUniBar.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\bin\Debug\netcoreapp2.1\12-SoftUniBar.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\bin\Debug\netcoreapp2.1\12-SoftUniBar.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\bin\Debug\netcoreapp2.1\12-SoftUniBar.pdb
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\obj\Debug\netcoreapp2.1\12-SoftUniBar.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\obj\Debug\netcoreapp2.1\12-SoftUniBar.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\obj\Debug\netcoreapp2.1\12-SoftUniBar.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\obj\Debug\netcoreapp2.1\12-SoftUniBar.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\obj\Debug\netcoreapp2.1\12-SoftUniBar.dll
+C:\Users\Challenger\Desktop\C#\Text-Processing&RegularExpression\TextProcessing\12-SoftUniBar\obj\Debug\netcoreapp2.1\12-SoftUniBar.pdb

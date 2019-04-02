@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\bin\Debug\netcoreapp2.1\LAB-02-OddOcc.deps.json
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\bin\Debug\netcoreapp2.1\LAB-02-OddOcc.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\bin\Debug\netcoreapp2.1\LAB-02-OddOcc.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\bin\Debug\netcoreapp2.1\LAB-02-OddOcc.dll
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\bin\Debug\netcoreapp2.1\LAB-02-OddOcc.pdb
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\obj\Debug\netcoreapp2.1\LAB-02-OddOcc.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\obj\Debug\netcoreapp2.1\LAB-02-OddOcc.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\obj\Debug\netcoreapp2.1\LAB-02-OddOcc.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\obj\Debug\netcoreapp2.1\LAB-02-OddOcc.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\obj\Debug\netcoreapp2.1\LAB-02-OddOcc.dll
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\LAB-02-OddOcc\obj\Debug\netcoreapp2.1\LAB-02-OddOcc.pdb

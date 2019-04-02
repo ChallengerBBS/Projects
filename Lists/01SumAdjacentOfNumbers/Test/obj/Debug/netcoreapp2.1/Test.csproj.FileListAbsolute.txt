@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\bin\Debug\netcoreapp2.1\Test.deps.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\bin\Debug\netcoreapp2.1\Test.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\bin\Debug\netcoreapp2.1\Test.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\bin\Debug\netcoreapp2.1\Test.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\bin\Debug\netcoreapp2.1\Test.pdb
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\obj\Debug\netcoreapp2.1\Test.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\obj\Debug\netcoreapp2.1\Test.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\obj\Debug\netcoreapp2.1\Test.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\Test\obj\Debug\netcoreapp2.1\Test.pdb

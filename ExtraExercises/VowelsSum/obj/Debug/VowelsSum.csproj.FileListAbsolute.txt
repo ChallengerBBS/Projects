@@ -1,0 +1,7 @@
+C:\Users\petar\source\repos\Solution20181110_for_loops\VowelsSum\bin\Debug\VowelsSum.exe.config
+C:\Users\petar\source\repos\Solution20181110_for_loops\VowelsSum\bin\Debug\VowelsSum.exe
+C:\Users\petar\source\repos\Solution20181110_for_loops\VowelsSum\bin\Debug\VowelsSum.pdb
+C:\Users\petar\source\repos\Solution20181110_for_loops\VowelsSum\obj\Debug\VowelsSum.csprojAssemblyReference.cache
+C:\Users\petar\source\repos\Solution20181110_for_loops\VowelsSum\obj\Debug\VowelsSum.csproj.CoreCompileInputs.cache
+C:\Users\petar\source\repos\Solution20181110_for_loops\VowelsSum\obj\Debug\VowelsSum.exe
+C:\Users\petar\source\repos\Solution20181110_for_loops\VowelsSum\obj\Debug\VowelsSum.pdb

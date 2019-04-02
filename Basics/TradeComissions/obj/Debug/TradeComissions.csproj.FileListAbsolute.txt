@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\AZsd\TradeComissions\bin\Debug\TradeComissions.exe.config
+C:\Users\Challenger\Desktop\C#\AZsd\TradeComissions\bin\Debug\TradeComissions.exe
+C:\Users\Challenger\Desktop\C#\AZsd\TradeComissions\bin\Debug\TradeComissions.pdb
+C:\Users\Challenger\Desktop\C#\AZsd\TradeComissions\obj\Debug\TradeComissions.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AZsd\TradeComissions\obj\Debug\TradeComissions.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AZsd\TradeComissions\obj\Debug\TradeComissions.exe
+C:\Users\Challenger\Desktop\C#\AZsd\TradeComissions\obj\Debug\TradeComissions.pdb

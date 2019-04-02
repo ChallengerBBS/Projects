@@ -1,0 +1,10 @@
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\bin\Debug\netcoreapp2.1\08FactorialDevision.deps.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\bin\Debug\netcoreapp2.1\08FactorialDevision.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\bin\Debug\netcoreapp2.1\08FactorialDevision.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\bin\Debug\netcoreapp2.1\08FactorialDevision.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\bin\Debug\netcoreapp2.1\08FactorialDevision.pdb
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\obj\Debug\netcoreapp2.1\08FactorialDevision.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\obj\Debug\netcoreapp2.1\08FactorialDevision.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\obj\Debug\netcoreapp2.1\08FactorialDevision.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\obj\Debug\netcoreapp2.1\08FactorialDevision.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\08FactorialDevision\obj\Debug\netcoreapp2.1\08FactorialDevision.pdb

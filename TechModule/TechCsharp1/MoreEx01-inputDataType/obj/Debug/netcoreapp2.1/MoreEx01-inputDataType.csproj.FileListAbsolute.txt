@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\bin\Debug\netcoreapp2.1\MoreEx01-inputDataType.deps.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\bin\Debug\netcoreapp2.1\MoreEx01-inputDataType.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\bin\Debug\netcoreapp2.1\MoreEx01-inputDataType.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\bin\Debug\netcoreapp2.1\MoreEx01-inputDataType.dll
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\bin\Debug\netcoreapp2.1\MoreEx01-inputDataType.pdb
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\obj\Debug\netcoreapp2.1\MoreEx01-inputDataType.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\obj\Debug\netcoreapp2.1\MoreEx01-inputDataType.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\obj\Debug\netcoreapp2.1\MoreEx01-inputDataType.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\obj\Debug\netcoreapp2.1\MoreEx01-inputDataType.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\obj\Debug\netcoreapp2.1\MoreEx01-inputDataType.dll
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\MoreEx01-inputDataType\obj\Debug\netcoreapp2.1\MoreEx01-inputDataType.pdb

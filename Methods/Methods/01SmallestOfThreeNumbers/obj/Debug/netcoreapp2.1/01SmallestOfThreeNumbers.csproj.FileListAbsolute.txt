@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\obj\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\obj\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\obj\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\bin\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.deps.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\bin\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\bin\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\bin\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\bin\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.pdb
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\obj\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\obj\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.pdb
+C:\Users\Challenger\Desktop\C#\Methods\Methods\01SmallestOfThreeNumbers\obj\Debug\netcoreapp2.1\01SmallestOfThreeNumbers.csprojAssemblyReference.cache

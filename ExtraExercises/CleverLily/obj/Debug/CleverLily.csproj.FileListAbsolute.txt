@@ -1,0 +1,7 @@
+C:\Users\petar\source\repos\Solution20181110_for_loops\CleverLily\bin\Debug\CleverLily.exe.config
+C:\Users\petar\source\repos\Solution20181110_for_loops\CleverLily\bin\Debug\CleverLily.exe
+C:\Users\petar\source\repos\Solution20181110_for_loops\CleverLily\bin\Debug\CleverLily.pdb
+C:\Users\petar\source\repos\Solution20181110_for_loops\CleverLily\obj\Debug\CleverLily.csprojAssemblyReference.cache
+C:\Users\petar\source\repos\Solution20181110_for_loops\CleverLily\obj\Debug\CleverLily.csproj.CoreCompileInputs.cache
+C:\Users\petar\source\repos\Solution20181110_for_loops\CleverLily\obj\Debug\CleverLily.exe
+C:\Users\petar\source\repos\Solution20181110_for_loops\CleverLily\obj\Debug\CleverLily.pdb

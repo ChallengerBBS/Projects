@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\AZsd\Seconds\bin\Debug\Seconds.exe.config
+C:\Users\Challenger\Desktop\C#\AZsd\Seconds\bin\Debug\Seconds.exe
+C:\Users\Challenger\Desktop\C#\AZsd\Seconds\bin\Debug\Seconds.pdb
+C:\Users\Challenger\Desktop\C#\AZsd\Seconds\obj\Debug\Seconds.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AZsd\Seconds\obj\Debug\Seconds.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AZsd\Seconds\obj\Debug\Seconds.exe
+C:\Users\Challenger\Desktop\C#\AZsd\Seconds\obj\Debug\Seconds.pdb

@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad6Exam\bin\Debug\Zad6Exam.exe.config
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad6Exam\bin\Debug\Zad6Exam.exe
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad6Exam\bin\Debug\Zad6Exam.pdb
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad6Exam\obj\Debug\Zad6Exam.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad6Exam\obj\Debug\Zad6Exam.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad6Exam\obj\Debug\Zad6Exam.exe
+C:\Users\Challenger\Desktop\C#\WhileLoop\Zad6Exam\obj\Debug\Zad6Exam.pdb

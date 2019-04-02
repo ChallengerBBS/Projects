@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\bin\Debug\netcoreapp2.1\LAB-10-GetMaxValue.deps.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\bin\Debug\netcoreapp2.1\LAB-10-GetMaxValue.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\bin\Debug\netcoreapp2.1\LAB-10-GetMaxValue.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\bin\Debug\netcoreapp2.1\LAB-10-GetMaxValue.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\bin\Debug\netcoreapp2.1\LAB-10-GetMaxValue.pdb
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\obj\Debug\netcoreapp2.1\LAB-10-GetMaxValue.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\obj\Debug\netcoreapp2.1\LAB-10-GetMaxValue.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\obj\Debug\netcoreapp2.1\LAB-10-GetMaxValue.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\obj\Debug\netcoreapp2.1\LAB-10-GetMaxValue.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\obj\Debug\netcoreapp2.1\LAB-10-GetMaxValue.dll
+C:\Users\Challenger\Desktop\C#\Methods\Methods\LAB-10-GetMaxValue\obj\Debug\netcoreapp2.1\LAB-10-GetMaxValue.pdb

@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\WhileLoop\ASdd\bin\Debug\ASdd.exe.config
+C:\Users\Challenger\Desktop\C#\WhileLoop\ASdd\bin\Debug\ASdd.exe
+C:\Users\Challenger\Desktop\C#\WhileLoop\ASdd\bin\Debug\ASdd.pdb
+C:\Users\Challenger\Desktop\C#\WhileLoop\ASdd\obj\Debug\ASdd.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\WhileLoop\ASdd\obj\Debug\ASdd.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\WhileLoop\ASdd\obj\Debug\ASdd.exe
+C:\Users\Challenger\Desktop\C#\WhileLoop\ASdd\obj\Debug\ASdd.pdb

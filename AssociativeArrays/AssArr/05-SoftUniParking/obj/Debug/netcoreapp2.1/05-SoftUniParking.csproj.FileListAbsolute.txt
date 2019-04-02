@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\bin\Debug\netcoreapp2.1\05-SoftUniParking.deps.json
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\bin\Debug\netcoreapp2.1\05-SoftUniParking.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\bin\Debug\netcoreapp2.1\05-SoftUniParking.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\bin\Debug\netcoreapp2.1\05-SoftUniParking.dll
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\bin\Debug\netcoreapp2.1\05-SoftUniParking.pdb
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\obj\Debug\netcoreapp2.1\05-SoftUniParking.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\obj\Debug\netcoreapp2.1\05-SoftUniParking.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\obj\Debug\netcoreapp2.1\05-SoftUniParking.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\obj\Debug\netcoreapp2.1\05-SoftUniParking.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\obj\Debug\netcoreapp2.1\05-SoftUniParking.dll
+C:\Users\Challenger\Desktop\C#\AssociativeArrays\AssArr\05-SoftUniParking\obj\Debug\netcoreapp2.1\05-SoftUniParking.pdb

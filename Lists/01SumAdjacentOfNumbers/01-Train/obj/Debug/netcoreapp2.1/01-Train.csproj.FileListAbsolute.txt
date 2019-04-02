@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\bin\Debug\netcoreapp2.1\01-Train.deps.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\bin\Debug\netcoreapp2.1\01-Train.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\bin\Debug\netcoreapp2.1\01-Train.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\bin\Debug\netcoreapp2.1\01-Train.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\bin\Debug\netcoreapp2.1\01-Train.pdb
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\obj\Debug\netcoreapp2.1\01-Train.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\obj\Debug\netcoreapp2.1\01-Train.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\obj\Debug\netcoreapp2.1\01-Train.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\obj\Debug\netcoreapp2.1\01-Train.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\obj\Debug\netcoreapp2.1\01-Train.dll
+C:\Users\Challenger\Desktop\C#\Lists\01SumAdjacentOfNumbers\01-Train\obj\Debug\netcoreapp2.1\01-Train.pdb

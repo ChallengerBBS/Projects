@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\bin\Debug\netcoreapp2.1\TechCsharp1.deps.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\bin\Debug\netcoreapp2.1\TechCsharp1.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\bin\Debug\netcoreapp2.1\TechCsharp1.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\bin\Debug\netcoreapp2.1\TechCsharp1.dll
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\bin\Debug\netcoreapp2.1\TechCsharp1.pdb
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\obj\Debug\netcoreapp2.1\TechCsharp1.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\obj\Debug\netcoreapp2.1\TechCsharp1.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\obj\Debug\netcoreapp2.1\TechCsharp1.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\obj\Debug\netcoreapp2.1\TechCsharp1.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\obj\Debug\netcoreapp2.1\TechCsharp1.dll
+C:\Users\Challenger\Desktop\C#\TechModule\TechCsharp1\TechCsharp1\obj\Debug\netcoreapp2.1\TechCsharp1.pdb

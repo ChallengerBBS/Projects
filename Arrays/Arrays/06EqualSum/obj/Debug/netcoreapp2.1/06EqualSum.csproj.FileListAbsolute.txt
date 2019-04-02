@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\bin\Debug\netcoreapp2.1\06EqualSum.deps.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\bin\Debug\netcoreapp2.1\06EqualSum.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\bin\Debug\netcoreapp2.1\06EqualSum.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\bin\Debug\netcoreapp2.1\06EqualSum.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\bin\Debug\netcoreapp2.1\06EqualSum.pdb
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\obj\Debug\netcoreapp2.1\06EqualSum.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\obj\Debug\netcoreapp2.1\06EqualSum.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\obj\Debug\netcoreapp2.1\06EqualSum.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\obj\Debug\netcoreapp2.1\06EqualSum.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\obj\Debug\netcoreapp2.1\06EqualSum.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\06EqualSum\obj\Debug\netcoreapp2.1\06EqualSum.pdb
