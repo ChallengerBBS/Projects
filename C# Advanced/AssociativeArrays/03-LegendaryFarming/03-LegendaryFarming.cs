@@ -9,6 +9,7 @@ namespace _03_LegendaryFarming
     {
         static void Main(string[] args)
         {
+			//Some changes
             var collection = new Dictionary<string, int>
             {
                 {"shards", 0 },
