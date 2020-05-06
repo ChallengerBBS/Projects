@@ -7,6 +7,7 @@ namespace _01_ExamFirst
     {
         static void Main(string[] args)
         {
+			//Some changes
             double adventureDays = double.Parse(Console.ReadLine());
             double playersCount = double.Parse(Console.ReadLine());
             double groupEnergy = double.Parse(Console.ReadLine());
