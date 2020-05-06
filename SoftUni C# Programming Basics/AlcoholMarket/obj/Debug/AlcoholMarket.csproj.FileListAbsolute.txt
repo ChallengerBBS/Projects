@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\AlcoholMarket\bin\Debug\AlcoholMarket.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\AlcoholMarket\bin\Debug\AlcoholMarket.exe
-C:\Users\Challenger\Desktop\C#\AZsd\AlcoholMarket\bin\Debug\AlcoholMarket.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\AlcoholMarket\obj\Debug\AlcoholMarket.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\AZsd\AlcoholMarket\obj\Debug\AlcoholMarket.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\AlcoholMarket\obj\Debug\AlcoholMarket.exe
-C:\Users\Challenger\Desktop\C#\AZsd\AlcoholMarket\obj\Debug\AlcoholMarket.pdb
