@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\AZsd\Time\bin\Debug\Time.exe.config
+C:\Users\Challenger\Desktop\C#\AZsd\Time\bin\Debug\Time.exe
+C:\Users\Challenger\Desktop\C#\AZsd\Time\bin\Debug\Time.pdb
+C:\Users\Challenger\Desktop\C#\AZsd\Time\obj\Debug\Time.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AZsd\Time\obj\Debug\Time.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AZsd\Time\obj\Debug\Time.exe
+C:\Users\Challenger\Desktop\C#\AZsd\Time\obj\Debug\Time.pdb

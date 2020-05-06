@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\AZsd\Tickets\bin\Debug\Tickets.exe.config
+C:\Users\Challenger\Desktop\C#\AZsd\Tickets\bin\Debug\Tickets.exe
+C:\Users\Challenger\Desktop\C#\AZsd\Tickets\bin\Debug\Tickets.pdb
+C:\Users\Challenger\Desktop\C#\AZsd\Tickets\obj\Debug\Tickets.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AZsd\Tickets\obj\Debug\Tickets.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AZsd\Tickets\obj\Debug\Tickets.exe
+C:\Users\Challenger\Desktop\C#\AZsd\Tickets\obj\Debug\Tickets.pdb

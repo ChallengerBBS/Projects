@@ -65,8 +65,12 @@ namespace _07.On_Time_for_the_Exam
             }
 
 
+<<<<<<< HEAD
             var asd = "asd";
             Console.WriteLine(asd.Reverse()); ;
+=======
+
+>>>>>>> 51d712d9ebfe9cd9b58ebb12fc31d499e3f6c843
 
 
 

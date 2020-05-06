@@ -1,0 +1,11 @@
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\bin\Debug\netcoreapp2.1\GAME-Tetris.deps.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\bin\Debug\netcoreapp2.1\GAME-Tetris.runtimeconfig.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\bin\Debug\netcoreapp2.1\GAME-Tetris.runtimeconfig.dev.json
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\bin\Debug\netcoreapp2.1\GAME-Tetris.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\bin\Debug\netcoreapp2.1\GAME-Tetris.pdb
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\obj\Debug\netcoreapp2.1\GAME-Tetris.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\obj\Debug\netcoreapp2.1\GAME-Tetris.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\obj\Debug\netcoreapp2.1\GAME-Tetris.AssemblyInfoInputs.cache
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\obj\Debug\netcoreapp2.1\GAME-Tetris.AssemblyInfo.cs
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\obj\Debug\netcoreapp2.1\GAME-Tetris.dll
+C:\Users\Challenger\Desktop\C#\Arrays\Arrays\GAME-Tetris\obj\Debug\netcoreapp2.1\GAME-Tetris.pdb

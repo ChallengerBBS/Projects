@@ -1,0 +1,7 @@
+C:\Users\Challenger\Desktop\C#\AZsd\CharityCampaign\bin\Debug\CharityCampaign.exe.config
+C:\Users\Challenger\Desktop\C#\AZsd\CharityCampaign\bin\Debug\CharityCampaign.exe
+C:\Users\Challenger\Desktop\C#\AZsd\CharityCampaign\bin\Debug\CharityCampaign.pdb
+C:\Users\Challenger\Desktop\C#\AZsd\CharityCampaign\obj\Debug\CharityCampaign.csprojAssemblyReference.cache
+C:\Users\Challenger\Desktop\C#\AZsd\CharityCampaign\obj\Debug\CharityCampaign.csproj.CoreCompileInputs.cache
+C:\Users\Challenger\Desktop\C#\AZsd\CharityCampaign\obj\Debug\CharityCampaign.exe
+C:\Users\Challenger\Desktop\C#\AZsd\CharityCampaign\obj\Debug\CharityCampaign.pdb
