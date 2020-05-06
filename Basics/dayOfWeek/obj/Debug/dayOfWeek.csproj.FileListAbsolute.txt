@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\dayOfWeek\bin\Debug\dayOfWeek.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\dayOfWeek\bin\Debug\dayOfWeek.exe
-C:\Users\Challenger\Desktop\C#\AZsd\dayOfWeek\bin\Debug\dayOfWeek.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\dayOfWeek\obj\Debug\dayOfWeek.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\AZsd\dayOfWeek\obj\Debug\dayOfWeek.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\dayOfWeek\obj\Debug\dayOfWeek.exe
-C:\Users\Challenger\Desktop\C#\AZsd\dayOfWeek\obj\Debug\dayOfWeek.pdb

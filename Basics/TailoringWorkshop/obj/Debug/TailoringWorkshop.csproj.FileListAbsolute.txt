@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\TailoringWorkshop\bin\Debug\TailoringWorkshop.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\TailoringWorkshop\bin\Debug\TailoringWorkshop.exe
-C:\Users\Challenger\Desktop\C#\AZsd\TailoringWorkshop\bin\Debug\TailoringWorkshop.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\TailoringWorkshop\obj\Debug\TailoringWorkshop.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\AZsd\TailoringWorkshop\obj\Debug\TailoringWorkshop.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\TailoringWorkshop\obj\Debug\TailoringWorkshop.exe
-C:\Users\Challenger\Desktop\C#\AZsd\TailoringWorkshop\obj\Debug\TailoringWorkshop.pdb

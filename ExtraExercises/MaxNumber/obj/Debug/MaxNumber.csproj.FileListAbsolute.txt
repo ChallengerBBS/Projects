@@ -1,7 +1,0 @@
-C:\Users\petar\source\repos\Solution20181110_for_loops\MaxNumber\bin\Debug\MaxNumber.exe.config
-C:\Users\petar\source\repos\Solution20181110_for_loops\MaxNumber\bin\Debug\MaxNumber.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\MaxNumber\bin\Debug\MaxNumber.pdb
-C:\Users\petar\source\repos\Solution20181110_for_loops\MaxNumber\obj\Debug\MaxNumber.csprojAssemblyReference.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\MaxNumber\obj\Debug\MaxNumber.csproj.CoreCompileInputs.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\MaxNumber\obj\Debug\MaxNumber.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\MaxNumber\obj\Debug\MaxNumber.pdb

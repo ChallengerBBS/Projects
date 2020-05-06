@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\WhileLoop\WeddingDecorations\bin\Debug\WeddingDecorations.exe.config
-C:\Users\Challenger\Desktop\C#\WhileLoop\WeddingDecorations\bin\Debug\WeddingDecorations.exe
-C:\Users\Challenger\Desktop\C#\WhileLoop\WeddingDecorations\bin\Debug\WeddingDecorations.pdb
-C:\Users\Challenger\Desktop\C#\WhileLoop\WeddingDecorations\obj\Debug\WeddingDecorations.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\WhileLoop\WeddingDecorations\obj\Debug\WeddingDecorations.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\WhileLoop\WeddingDecorations\obj\Debug\WeddingDecorations.exe
-C:\Users\Challenger\Desktop\C#\WhileLoop\WeddingDecorations\obj\Debug\WeddingDecorations.pdb

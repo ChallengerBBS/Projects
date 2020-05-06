@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\WhileLoop\zad3Exam\bin\Debug\zad3Exam.exe.config
-C:\Users\Challenger\Desktop\C#\WhileLoop\zad3Exam\bin\Debug\zad3Exam.exe
-C:\Users\Challenger\Desktop\C#\WhileLoop\zad3Exam\bin\Debug\zad3Exam.pdb
-C:\Users\Challenger\Desktop\C#\WhileLoop\zad3Exam\obj\Debug\zad3Exam.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\WhileLoop\zad3Exam\obj\Debug\zad3Exam.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\WhileLoop\zad3Exam\obj\Debug\zad3Exam.exe
-C:\Users\Challenger\Desktop\C#\WhileLoop\zad3Exam\obj\Debug\zad3Exam.pdb

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetStore.Data.Models\PetStore.Data.Models.csproj" />
+    <ProjectReference Include="..\PetStore.Services.Models\PetStore.Services.Models.csproj" />
+    <ProjectReference Include="..\PetStory.Data\PetStore.Data.csproj" />
+  </ItemGroup>
+
+</Project>

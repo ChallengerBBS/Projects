@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\ThreeBrothers\bin\Debug\ThreeBrothers.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\ThreeBrothers\bin\Debug\ThreeBrothers.exe
-C:\Users\Challenger\Desktop\C#\AZsd\ThreeBrothers\bin\Debug\ThreeBrothers.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\ThreeBrothers\obj\Debug\ThreeBrothers.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\AZsd\ThreeBrothers\obj\Debug\ThreeBrothers.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\ThreeBrothers\obj\Debug\ThreeBrothers.exe
-C:\Users\Challenger\Desktop\C#\AZsd\ThreeBrothers\obj\Debug\ThreeBrothers.pdb

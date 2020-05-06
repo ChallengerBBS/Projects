@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\MetricConverter\obj\Debug\MetricConverter.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\AZsd\MetricConverter\obj\Debug\MetricConverter.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\MetricConverter\bin\Debug\MetricConverter.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\MetricConverter\bin\Debug\MetricConverter.exe
-C:\Users\Challenger\Desktop\C#\AZsd\MetricConverter\bin\Debug\MetricConverter.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\MetricConverter\obj\Debug\MetricConverter.exe
-C:\Users\Challenger\Desktop\C#\AZsd\MetricConverter\obj\Debug\MetricConverter.pdb

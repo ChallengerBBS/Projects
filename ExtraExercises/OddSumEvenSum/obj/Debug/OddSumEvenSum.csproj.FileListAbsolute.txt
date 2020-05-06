@@ -1,6 +1,0 @@
-C:\Users\petar\source\repos\Solution20181110_for_loops\OddSumEvenSum\bin\Debug\OddSumEvenSum.exe.config
-C:\Users\petar\source\repos\Solution20181110_for_loops\OddSumEvenSum\bin\Debug\OddSumEvenSum.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\OddSumEvenSum\bin\Debug\OddSumEvenSum.pdb
-C:\Users\petar\source\repos\Solution20181110_for_loops\OddSumEvenSum\obj\Debug\OddSumEvenSum.csproj.CoreCompileInputs.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\OddSumEvenSum\obj\Debug\OddSumEvenSum.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\OddSumEvenSum\obj\Debug\OddSumEvenSum.pdb

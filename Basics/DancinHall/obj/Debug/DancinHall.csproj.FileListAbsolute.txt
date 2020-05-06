@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\DancinHall\bin\Debug\DancinHall.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\DancinHall\bin\Debug\DancinHall.exe
-C:\Users\Challenger\Desktop\C#\AZsd\DancinHall\bin\Debug\DancinHall.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\DancinHall\obj\Debug\DancinHall.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\DancinHall\obj\Debug\DancinHall.exe
-C:\Users\Challenger\Desktop\C#\AZsd\DancinHall\obj\Debug\DancinHall.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\DancinHall\obj\Debug\DancinHall.csprojAssemblyReference.cache

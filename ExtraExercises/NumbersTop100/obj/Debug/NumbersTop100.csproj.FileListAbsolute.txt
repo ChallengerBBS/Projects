@@ -1,7 +1,0 @@
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumbersTop100\bin\Debug\NumbersTop100.exe.config
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumbersTop100\bin\Debug\NumbersTop100.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumbersTop100\bin\Debug\NumbersTop100.pdb
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumbersTop100\obj\Debug\NumbersTop100.csprojAssemblyReference.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumbersTop100\obj\Debug\NumbersTop100.csproj.CoreCompileInputs.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumbersTop100\obj\Debug\NumbersTop100.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumbersTop100\obj\Debug\NumbersTop100.pdb

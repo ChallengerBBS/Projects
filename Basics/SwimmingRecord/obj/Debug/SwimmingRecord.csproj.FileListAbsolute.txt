@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\SwimmingRecord\bin\Debug\SwimmingRecord.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\SwimmingRecord\bin\Debug\SwimmingRecord.exe
-C:\Users\Challenger\Desktop\C#\AZsd\SwimmingRecord\bin\Debug\SwimmingRecord.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\SwimmingRecord\obj\Debug\SwimmingRecord.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\AZsd\SwimmingRecord\obj\Debug\SwimmingRecord.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\SwimmingRecord\obj\Debug\SwimmingRecord.exe
-C:\Users\Challenger\Desktop\C#\AZsd\SwimmingRecord\obj\Debug\SwimmingRecord.pdb

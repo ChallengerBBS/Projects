@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\AZsd\Scholarship\bin\Debug\Scholarship.exe.config
-C:\Users\Challenger\Desktop\C#\AZsd\Scholarship\bin\Debug\Scholarship.exe
-C:\Users\Challenger\Desktop\C#\AZsd\Scholarship\bin\Debug\Scholarship.pdb
-C:\Users\Challenger\Desktop\C#\AZsd\Scholarship\obj\Debug\Scholarship.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\AZsd\Scholarship\obj\Debug\Scholarship.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\AZsd\Scholarship\obj\Debug\Scholarship.exe
-C:\Users\Challenger\Desktop\C#\AZsd\Scholarship\obj\Debug\Scholarship.pdb

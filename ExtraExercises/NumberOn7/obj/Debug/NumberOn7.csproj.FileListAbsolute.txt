@@ -1,6 +1,0 @@
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumberOn7\bin\Debug\NumberOn7.exe.config
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumberOn7\bin\Debug\NumberOn7.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumberOn7\bin\Debug\NumberOn7.pdb
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumberOn7\obj\Debug\NumberOn7.csproj.CoreCompileInputs.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumberOn7\obj\Debug\NumberOn7.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\NumberOn7\obj\Debug\NumberOn7.pdb

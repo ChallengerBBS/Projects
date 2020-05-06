@@ -1,7 +1,0 @@
-C:\Users\Challenger\Desktop\C#\WhileLoop\NumberInRange\bin\Debug\NumberInRange.exe.config
-C:\Users\Challenger\Desktop\C#\WhileLoop\NumberInRange\bin\Debug\NumberInRange.exe
-C:\Users\Challenger\Desktop\C#\WhileLoop\NumberInRange\bin\Debug\NumberInRange.pdb
-C:\Users\Challenger\Desktop\C#\WhileLoop\NumberInRange\obj\Debug\GCD.csprojAssemblyReference.cache
-C:\Users\Challenger\Desktop\C#\WhileLoop\NumberInRange\obj\Debug\GCD.csproj.CoreCompileInputs.cache
-C:\Users\Challenger\Desktop\C#\WhileLoop\NumberInRange\obj\Debug\NumberInRange.exe
-C:\Users\Challenger\Desktop\C#\WhileLoop\NumberInRange\obj\Debug\NumberInRange.pdb

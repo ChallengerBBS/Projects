@@ -1,7 +1,0 @@
-C:\Users\petar\source\repos\Solution20181110_for_loops\LeftRightSum\bin\Debug\LeftRightSum.exe.config
-C:\Users\petar\source\repos\Solution20181110_for_loops\LeftRightSum\bin\Debug\LeftRightSum.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\LeftRightSum\bin\Debug\LeftRightSum.pdb
-C:\Users\petar\source\repos\Solution20181110_for_loops\LeftRightSum\obj\Debug\LeftRightSum.csprojAssemblyReference.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\LeftRightSum\obj\Debug\LeftRightSum.csproj.CoreCompileInputs.cache
-C:\Users\petar\source\repos\Solution20181110_for_loops\LeftRightSum\obj\Debug\LeftRightSum.exe
-C:\Users\petar\source\repos\Solution20181110_for_loops\LeftRightSum\obj\Debug\LeftRightSum.pdb
