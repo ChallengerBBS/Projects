@@ -10,6 +10,7 @@ namespace Choreography
     {
         static void Main(string[] args)
         {
+			//Some changes
             double steps = double.Parse(Console.ReadLine());
             double dancers = double.Parse(Console.ReadLine());
             double days = double.Parse(Console.ReadLine());
