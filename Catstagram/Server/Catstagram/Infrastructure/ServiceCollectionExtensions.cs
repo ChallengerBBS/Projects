@@ -1,17 +1,39 @@
 ﻿namespace Catstagram.Infrastructure
 {
-    using Catstagram.Data;
-    using Catstagram.Data.Models;
+    using System.Text;
+
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.AspNetCore.Identity;
-    using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.IdentityModel.Tokens;
-    using System.Configuration;
-    using System.Text;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.EntityFrameworkCore;
+
+    using Catstagram.Data;
+    using Catstagram.Data.Models;
+    using Catstagram.Features.Identity;
+    using Catstagram.Features.Cats;
 
     public static class ServiceCollectionExtensions
     {
+        public static AppSettings GetApplicationSettings(
+            this IServiceCollection services,
+            IConfiguration configuration)
+
+        {
+            var applicationSettingsConfiguration = configuration.GetSection("ApplicationSettings");
+            services.Configure<AppSettings>(applicationSettingsConfiguration);
+            return applicationSettingsConfiguration.Get<AppSettings>();
+
+        }
+
+        public static IServiceCollection AddDatabase(
+                             this IServiceCollection services,
+                                      IConfiguration configuration)
+                => services
+                        .AddDbContext<CatstagramDbContext>(options => options
+                            .UseSqlServer(configuration.GetDefaultConnectionString()));
+
         public static IServiceCollection AddIdentity(this IServiceCollection services)
         {
             services
@@ -51,5 +73,13 @@
 
             return services;
         }
+
+        public static IServiceCollection AddApplicationServices(this IServiceCollection services)
+            => services
+                .AddTransient<IIdentityService, IdentityService>()
+                .AddTransient<ICatService, CatService>();
+
+
+
     }
 }

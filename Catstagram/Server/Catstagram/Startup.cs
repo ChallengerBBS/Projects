@@ -1,13 +1,11 @@
 namespace Catstagram
 {
-    using Catstagram.Data;
     using Catstagram.Infrastructure;
     
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Hosting;
 
     public class Startup
@@ -18,10 +16,10 @@ namespace Catstagram
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         => services
-                .AddDbContext<CatstagramDbContext>(options => options
-                .UseSqlServer( this.Configuration.GetDefaultConnectionString()))
+                .AddDatabase(this.Configuration)
                 .AddIdentity()
                 .AddJwtAuthentication(services.GetApplicationSettings(this.Configuration))
+                .AddApplicationServices()
                 .AddControllers();
 
         
