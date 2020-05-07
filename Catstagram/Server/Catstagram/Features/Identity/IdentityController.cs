@@ -46,7 +46,7 @@
 
         [Route(nameof(Login))]
 
-        public async Task<ActionResult<object>> Login (LoginRequestModel model)
+        public async Task<ActionResult<LoginResponseModel>> Login (LoginRequestModel model)
         {
             var user = await userManager.FindByNameAsync(model.UserName);
             if(user==null)
@@ -67,7 +67,7 @@
                 this.appSettings.Secret);
 
 
-            return new
+            return new LoginResponseModel
             {
                 Token = token
             };
