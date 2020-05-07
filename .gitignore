@@ -5,7 +5,10 @@
 /C# .NET MVC
 /C# Web projects
 /Misc
-
+_ReSharper.*
+bin
+obj
+packages
 *.suo
 *.user
 *.userosscache
