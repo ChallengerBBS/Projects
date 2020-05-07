@@ -20,6 +20,7 @@ namespace Catstagram
                 .AddIdentity()
                 .AddJwtAuthentication(services.GetApplicationSettings(this.Configuration))
                 .AddApplicationServices()
+                .AddSwagger()
                 .AddControllers();
 
         
@@ -29,7 +30,8 @@ namespace Catstagram
             {
                 app.UseDeveloperExceptionPage();
             }
-            app 
+            app        
+              .UseSwaggerUI()
               .UseRouting()
               .UseCors(options => options
               .AllowAnyOrigin()

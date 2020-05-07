@@ -1,11 +1,12 @@
 ﻿namespace Catstagram.Features.Identity
 {
-    using Catstagram.Data.Models;
-    using Microsoft.IdentityModel.Tokens;
-    using System.IdentityModel.Tokens.Jwt;
-    using System.Security.Claims;
-    using System.Text;
     using System;
+    using System.Text;
+    using System.Security.Claims;
+    using System.IdentityModel.Tokens.Jwt;
+
+    using Microsoft.IdentityModel.Tokens;
+
     public class IdentityService : IIdentityService
     {
         public string GenerateJwtToken(string userId, string userName, string secret)

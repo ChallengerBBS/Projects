@@ -8,6 +8,7 @@
     using Microsoft.IdentityModel.Tokens;
     using Microsoft.Extensions.Configuration;
     using Microsoft.EntityFrameworkCore;
+    using Microsoft.OpenApi.Models;
 
     using Catstagram.Data;
     using Catstagram.Data.Models;
@@ -79,7 +80,17 @@
                 .AddTransient<IIdentityService, IdentityService>()
                 .AddTransient<ICatService, CatService>();
 
-
+        public static IServiceCollection AddSwagger(this IServiceCollection services)
+        => services.AddSwaggerGen(c =>
+        {
+            c.SwaggerDoc(
+                "v1", 
+                new OpenApiInfo 
+                        { 
+                            Title = "My Catstagram API", 
+                            Version = "v1" 
+                        });
+        });
 
     }
 }

@@ -7,6 +7,7 @@
 
     using Catstagram.Infrastructure;
 
+    [Authorize]
     public class CatsController : ApiController
     {
         private readonly ICatService catService;
@@ -16,9 +17,7 @@
             this.catService = catService;
         }
 
-        [Authorize]
         [HttpPost]
-
         public async Task<ActionResult> Create(CreateCatRequestModel model)
         {
             var userId = this.User.GetId();
