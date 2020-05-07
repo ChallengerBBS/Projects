@@ -8,7 +8,7 @@
     using Catstagram.Data;
     using Catstagram.Data.Models;
     using Catstagram.Models.Cats;
-    using Catstagram.Infrastructure.Extensions;
+    using Catstagram.Infrastructure;
 
     public class CatsController : ApiController
     {
