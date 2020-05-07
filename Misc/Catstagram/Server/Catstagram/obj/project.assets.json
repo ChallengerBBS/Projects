@@ -9033,11 +9033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\#CodingStuff\\#Projects\\Misc\\Catstagram\\Server\\Catstagram\\Catstagram.csproj",
+      "projectUniqueName": "E:\\#CodingStuff\\#Projects\\C# .NET MVC\\Catstagram\\Server\\Catstagram\\Catstagram.csproj",
       "projectName": "Catstagram",
-      "projectPath": "E:\\#CodingStuff\\#Projects\\Misc\\Catstagram\\Server\\Catstagram\\Catstagram.csproj",
+      "projectPath": "E:\\#CodingStuff\\#Projects\\C# .NET MVC\\Catstagram\\Server\\Catstagram\\Catstagram.csproj",
       "packagesPath": "C:\\Users\\chall\\.nuget\\packages\\",
-      "outputPath": "E:\\#CodingStuff\\#Projects\\Misc\\Catstagram\\Server\\Catstagram\\obj\\",
+      "outputPath": "E:\\#CodingStuff\\#Projects\\C# .NET MVC\\Catstagram\\Server\\Catstagram\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chall\\AppData\\Roaming\\NuGet\\NuGet.Config",

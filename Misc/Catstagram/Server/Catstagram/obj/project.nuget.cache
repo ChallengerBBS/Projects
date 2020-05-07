@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AFRiusE6GnSg0JlJ66fORCZL36x2hdJCFbU9QqRnPvK6W8IcZGK6eqsgF1tWW7RuWzQ1CHQztjsJ4kXx3K9+vA==",
+  "dgSpecHash": "dkaV6ZGihWajZqiCkGls8wG9G2mS3jfp3Gly0KXfK5v1HsM1HrET8v2aKTtnx91kOoxrUZPTro3c9Z4gAy85GA==",
   "success": true,
-  "projectFilePath": "E:\\#CodingStuff\\#Projects\\Misc\\Catstagram\\Server\\Catstagram\\Catstagram.csproj",
+  "projectFilePath": "E:\\#CodingStuff\\#Projects\\C# .NET MVC\\Catstagram\\Server\\Catstagram\\Catstagram.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chall\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
     "C:\\Users\\chall\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
