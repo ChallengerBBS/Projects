@@ -1,15 +1,11 @@
-﻿namespace Catstagram.Models.Identity
+﻿namespace Catstagram.Features.Identity
 {
     using System.ComponentModel.DataAnnotations;
     
-    public class RegisterRequestModel
+    public class LoginRequestModel
     {
         [Required]
         public string UserName { get; set; }
-
-        [Required]
-
-        public string Email { get; set; }
 
         [Required]
 

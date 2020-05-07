@@ -1,4 +1,4 @@
-﻿namespace Catstagram.Controllers
+﻿namespace Catstagram.Features.Identity
 {
     using System;
     using System.Text;
