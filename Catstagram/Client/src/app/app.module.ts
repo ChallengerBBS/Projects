@@ -4,24 +4,31 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import {ReactiveFormsModule} from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
+import { ReactiveFormsModule } from '@angular/forms';
 import { AuthService } from './services/auth.service';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { CreatepostComponent } from './createpost/createpost.component';
+import { CatService } from './services/cat.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    CreatepostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule,
+    HttpClientModule
   ],
-  providers: [AuthService],
+  providers: [
+    AuthService, 
+    CatService, 
+   
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
