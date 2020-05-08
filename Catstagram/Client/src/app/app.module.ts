@@ -10,6 +10,7 @@ import { AuthService } from './services/auth.service';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CreatepostComponent } from './createpost/createpost.component';
 import { CatService } from './services/cat.service';
+import {AuthGuardService} from './services/auth-guard.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CatService } from './services/cat.service';
   ],
   providers: [
     AuthService, 
-    CatService, 
+    CatService,
+    AuthGuardService 
    
 ],
   bootstrap: [AppComponent]
