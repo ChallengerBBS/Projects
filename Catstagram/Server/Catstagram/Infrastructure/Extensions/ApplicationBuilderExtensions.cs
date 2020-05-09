@@ -1,4 +1,4 @@
-﻿namespace Catstagram.Infrastructure
+﻿namespace Catstagram.Infrastructure.Extensions
 {
     using Microsoft.AspNetCore.Builder;
     using Microsoft.EntityFrameworkCore;

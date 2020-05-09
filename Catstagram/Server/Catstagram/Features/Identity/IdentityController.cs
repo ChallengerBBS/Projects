@@ -7,6 +7,7 @@
     using Microsoft.Extensions.Options;
 
     using Catstagram.Data.Models;
+    using Catstagram.Features.Identity.Models;
 
     public class IdentityController : ApiController
     {

@@ -1,4 +1,4 @@
-﻿namespace Catstagram.Features.Identity
+﻿namespace Catstagram.Features.Identity.Models
 {
     using System.ComponentModel.DataAnnotations;
     

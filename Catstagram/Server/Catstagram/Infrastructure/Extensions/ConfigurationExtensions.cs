@@ -1,4 +1,4 @@
-﻿namespace Catstagram.Infrastructure
+﻿namespace Catstagram.Infrastructure.Extensions
 {
     using Microsoft.Extensions.Configuration;
 

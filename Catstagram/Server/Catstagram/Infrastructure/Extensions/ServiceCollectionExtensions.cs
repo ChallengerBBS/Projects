@@ -1,4 +1,4 @@
-﻿namespace Catstagram.Infrastructure
+﻿namespace Catstagram.Infrastructure.Extensions
 {
     using System.Text;
 
@@ -14,6 +14,7 @@
     using Catstagram.Data.Models;
     using Catstagram.Features.Identity;
     using Catstagram.Features.Cats;
+    using Catstagram.Infrastructure.Filters;
 
     public static class ServiceCollectionExtensions
     {
@@ -84,13 +85,18 @@
         => services.AddSwaggerGen(c =>
         {
             c.SwaggerDoc(
-                "v1", 
-                new OpenApiInfo 
-                        { 
-                            Title = "My Catstagram API", 
-                            Version = "v1" 
-                        });
+                "v1",
+                new OpenApiInfo
+                {
+                    Title = "My Catstagram API",
+                    Version = "v1"
+                });
         });
 
+        public static void AddApiControllers(this IServiceCollection services)
+        => services
+                .AddControllers(options => options
+                                .Filters
+                                .Add<ModelOrNotFoundActionFilter>());
     }
 }

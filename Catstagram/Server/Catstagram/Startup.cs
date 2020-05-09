@@ -1,7 +1,7 @@
 namespace Catstagram
 {
-    using Catstagram.Infrastructure;
-    
+    using Catstagram.Infrastructure.Extensions;
+
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
@@ -21,7 +21,7 @@ namespace Catstagram
                 .AddJwtAuthentication(services.GetApplicationSettings(this.Configuration))
                 .AddApplicationServices()
                 .AddSwagger()
-                .AddControllers();
+                .AddApiControllers();
 
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
