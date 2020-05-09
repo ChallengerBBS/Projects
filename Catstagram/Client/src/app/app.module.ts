@@ -11,6 +11,7 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CreatepostComponent } from './createpost/createpost.component';
 import { CatService } from './services/cat.service';
 import {AuthGuardService} from './services/auth-guard.service';
+import { TokerInterceptorService } from './services/toker-interceptor.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,12 @@ import {AuthGuardService} from './services/auth-guard.service';
   providers: [
     AuthService, 
     CatService,
-    AuthGuardService 
+    AuthGuardService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: TokerInterceptorService,
+      multi: true
+    } 
    
 ],
   bootstrap: [AppComponent]
