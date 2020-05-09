@@ -34,6 +34,24 @@
             return cat.Id;
         }
 
+        public async Task<bool> Update(int id, string description, string userId)
+        {
+            var cat = await this.data
+                .Cats
+                .Where(c => c.Id == id && c.UserId == userId)
+                .FirstOrDefaultAsync();
+
+            if (cat==null)
+            {
+                return false;
+            }
+
+            cat.Description = description;
+            await this.data.SaveChangesAsync();
+            return true;
+
+        }
+
         public async Task<IEnumerable<CatListingServiceModel>> ByUser(string userId)
         => await this.data
             .Cats
@@ -54,10 +72,11 @@
             {
                 Id = c.Id,
                 UserId = c.UserId,
-                ImageUrl=c.ImageUrl,
-                Description=c.Description,
-                UserName=c.User.UserName
+                ImageUrl = c.ImageUrl,
+                Description = c.Description,
+                UserName = c.User.UserName
             })
             .FirstOrDefaultAsync();
+
     }
 }

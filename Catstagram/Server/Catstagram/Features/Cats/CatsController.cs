@@ -29,6 +29,7 @@
             return await this.catService.ByUser(userId);
         }
 
+        [Route("{id}")]
         [HttpGet]
         public async Task<ActionResult<CatDetailsServiceModel>> Details(int id) 
 
@@ -45,6 +46,21 @@
                                                     userId);
 
             return Created(nameof(this.Create), catId);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Update(UpdateCatRequestModel model)
+        {
+            var userId = this.User.GetId();
+
+            var updated = await this.catService.Update(model.Id, model.Description, userId);
+
+            if (!updated)
+            {
+                return BadRequest();
+            }
+
+            return this.Ok();
         }
     }
 }
