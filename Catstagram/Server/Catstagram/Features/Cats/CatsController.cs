@@ -6,9 +6,11 @@
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
-    using Catstagram.Features.Cats.Models;
-    using Catstagram.Features.Cat.Models;
-    using Catstagram.Infrastructure.Extensions;
+    using Features.Cats.Models;
+    using Features.Cat.Models;
+    using Infrastructure.Extensions;
+
+    using static Infrastructure.WebConstants;
 
     [Authorize]
     public class CatsController : ApiController
@@ -29,8 +31,8 @@
             return await this.catService.ByUser(userId);
         }
 
-        [Route("{id}")]
         [HttpGet]
+        [Route(Id)]
         public async Task<ActionResult<CatDetailsServiceModel>> Details(int id) 
 
             =>  await this.catService.Details(id);
@@ -61,6 +63,16 @@
             }
 
             return this.Ok();
+
+
         }
+
+        [HttpDelete]
+        [Route(Id)]
+        public async Task<ActionResult> Delete(int id)
+        {
+
+        }
+
     }
 }
