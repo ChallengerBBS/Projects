@@ -71,6 +71,15 @@
         [Route(Id)]
         public async Task<ActionResult> Delete(int id)
         {
+            var userId = this.User.GetId();
+
+            var deleted = await this.catService.Delete(id, userId);
+
+            if (!deleted)
+            {
+                return BadRequest();
+            }
+            return Ok();
 
         }
 

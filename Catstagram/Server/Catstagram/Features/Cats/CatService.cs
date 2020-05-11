@@ -36,10 +36,7 @@
 
         public async Task<bool> Update(int id, string description, string userId)
         {
-            var cat = await this.data
-                .Cats
-                .Where(c => c.Id == id && c.UserId == userId)
-                .FirstOrDefaultAsync();
+            var cat = await this.GetByUserAndById(id, userId);
 
             if (cat==null)
             {
@@ -52,6 +49,20 @@
 
         }
 
+        public async Task<bool> Delete(int id, string userId)
+        {
+            var cat = await this.GetByUserAndById(id, userId);
+            if (cat == null)
+            {
+                return false;
+            }
+
+            this.data.Remove(cat);
+            await this.data.SaveChangesAsync();
+
+            return true;
+
+        }
         public async Task<IEnumerable<CatListingServiceModel>> ByUser(string userId)
         => await this.data
             .Cats
@@ -77,6 +88,12 @@
                 UserName = c.User.UserName
             })
             .FirstOrDefaultAsync();
+
+        private async Task<Cat> GetByUserAndById(int id, string userId)
+        => await this.data
+                .Cats
+                .Where(c => c.Id == id && c.UserId == userId)
+                .FirstOrDefaultAsync();
 
     }
 }
