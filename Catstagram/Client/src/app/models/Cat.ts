@@ -1,5 +1,7 @@
 export interface Cat{
-    id: number,
-    ImageUrl: string,
-    Description: string
+    id: number;
+    imageUrl: string;
+    description?: string;
+    userId?: string;
+    userName?: string;
 }
