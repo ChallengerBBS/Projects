@@ -20,6 +20,9 @@ export class ListCatsComponent implements OnInit {
       this.cats=cats;
     })
   }
+  editCat(id){
+    this.router.navigate(["cats/"+ id + "/edit"])
+  }
   deleteCat(id){
     this.catService.deleteCat(id).subscribe(res=>{
       this.fetchCats()
