@@ -25,4 +25,7 @@ export class CatService {
   getCat(id): Observable<Cat>{
     return this.http.get<Cat>(this.catPath + '/'+ id)
   }
+  deleteCat(id){
+    return this.http.delete(this.catPath+'/'+id)
+  }
 }

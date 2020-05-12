@@ -13,10 +13,17 @@ export class ListCatsComponent implements OnInit {
   constructor(private catService: CatService, private router: Router) { }
 
   ngOnInit(): void {
+    this.fetchCats()
+  }
+  fetchCats(){
     this.catService.getCats().subscribe(cats=>{
       this.cats=cats;
     })
   }
- 
+  deleteCat(id){
+    this.catService.deleteCat(id).subscribe(res=>{
+      this.fetchCats()
+    })
+  }
 
 }
