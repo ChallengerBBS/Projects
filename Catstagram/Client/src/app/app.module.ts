@@ -15,6 +15,7 @@ import { TokerInterceptorService } from './services/toker-interceptor.service';
 import { ListCatsComponent } from './list-cats/list-cats.component';
 import { DetailsCatComponent } from './details-cat/details-cat.component';
 import { EditCatComponent } from './edit-cat/edit-cat.component';
+import { ErrorInterceptorService } from './services/error-interceptor.service';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,12 @@ import { EditCatComponent } from './edit-cat/edit-cat.component';
       provide: HTTP_INTERCEPTORS,
       useClass: TokerInterceptorService,
       multi: true
-    } 
+    } ,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: ErrorInterceptorService,
+      multi: true
+    }
    
 ],
   bootstrap: [AppComponent]
