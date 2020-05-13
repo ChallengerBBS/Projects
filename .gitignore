@@ -5,6 +5,7 @@
 /C# .NET MVC
 /C# Web projects
 /Misc
+.gitignore
 
 *.suo
 *.user
