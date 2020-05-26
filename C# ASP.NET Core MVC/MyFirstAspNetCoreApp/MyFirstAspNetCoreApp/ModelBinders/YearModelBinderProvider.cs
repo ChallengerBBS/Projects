@@ -6,8 +6,8 @@ namespace MyFirstAspNetCoreApp.ModelBinders
     {
         public IModelBinder GetBinder(ModelBinderProviderContext context)
         {
-           if (context.BindingInfo.BinderModelName.ToLower()=="year"
-                && context.BindingInfo.BinderType == typeof(int))
+           if (context.Metadata?.Name?.ToLower()=="year"
+                && context.Metadata?.ModelType == typeof(int))
             {
                 return new YearModelBinder();
             }

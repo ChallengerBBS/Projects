@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MyFirstAspNetCoreApp.Filters;
+using MyFirstAspNetCoreApp.ModelBinders;
 using MyFirstAspNetCoreApp.Services;
 
 namespace MyFirstAspNetCoreApp
@@ -27,6 +28,7 @@ namespace MyFirstAspNetCoreApp
         {
             services.AddControllersWithViews(configure=>
             {
+                configure.ModelBinderProviders.Insert(0, new YearModelBinderProvider());
             });
             services.AddTransient<IStringManipulation, StringManipulation>();
             services.AddTransient<IYearsService, YearsService>();

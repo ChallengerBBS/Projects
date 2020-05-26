@@ -12,7 +12,6 @@
 
         public int[] Years { get; set; }
 
-        [ModelBinder(typeof(YearModelBinder))]
         public int Year { get; set; }
     }
 
