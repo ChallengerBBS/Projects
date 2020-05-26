@@ -10,6 +10,7 @@
         [Display(Name = "First name")]
         public string FirstName { get; set; }
 
+        [Required]
         [Display(Name = "Last name")]
         public string LastName { get; set; }
     }
@@ -31,7 +32,6 @@
         public string Email { get; set; }
 
         [Required]
-        [StringLength(10, MinimumLength = 10)]
         [RegularExpression("[0-9]{10}", ErrorMessage = "Invalid EGN !")]
         [Display(Name = "EGN")]
         public string Egn { get; set; }
@@ -41,6 +41,7 @@
         public DateTime DateOfBirth { get; set; }
 
         [Display(Name ="Years of experience")]
+        [Range(1,int.MaxValue)]
         public int YearsOfExperience { get; set; }
     }
 
@@ -57,7 +58,7 @@
         {
             if (!ModelState.IsValid)
             {
-                return Json(ModelState);
+                return View(input);
             }
             return Json(input);
         }
