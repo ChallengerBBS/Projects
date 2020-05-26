@@ -26,6 +26,11 @@
         [EmailAddress]
         public string Email { get; set; }
 
+        [Required]
+        [StringLength(10,MinimumLength=10)]
+        [RegularExpression("[0-9]{10}", ErrorMessage ="Invalid EGN !")]
+        public string Egn { get; set; }
+
         public int[] Years { get; set; }
 
         public int Year { get; set; }
