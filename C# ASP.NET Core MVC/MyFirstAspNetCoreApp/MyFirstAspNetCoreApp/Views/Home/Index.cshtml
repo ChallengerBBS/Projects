@@ -1,0 +1,16 @@
+﻿@using MyFirstAspNetCoreApp.ViewModels.Home
+@using Microsoft.AspNetCore.Hosting;
+@model IndexViewModel
+@inject IWebHostEnvironment Env
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration
+@inject MyFirstAspNetCoreApp.Services.ICountInstancesService CountInstancesService
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+    <div><h2>@CountInstancesService.Instances</h2></div>
+
+
+
+
+
