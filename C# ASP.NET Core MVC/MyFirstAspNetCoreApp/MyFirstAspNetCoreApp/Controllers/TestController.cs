@@ -1,14 +1,30 @@
 ﻿namespace MyFirstAspNetCoreApp.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
-    using MyFirstAspNetCoreApp.ModelBinders;
     using System.ComponentModel.DataAnnotations;
+
+    public class Names
+    {
+        [Required]
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+    }
 
     public class TestInputModel
     {
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        [Required]
+        public Names Names { get; set; }
+
+        [Required]
+        [MinLength(3)]
+        public string University { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
 
         public int[] Years { get; set; }
 
@@ -21,7 +37,7 @@
         {
             if (!ModelState.IsValid)
             {
-                return Content("Invalid model");
+                return Json(ModelState);
             }
             return Json(input);
         }
