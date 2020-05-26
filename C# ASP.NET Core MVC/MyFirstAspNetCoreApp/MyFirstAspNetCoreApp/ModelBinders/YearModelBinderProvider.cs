@@ -6,7 +6,13 @@ namespace MyFirstAspNetCoreApp.ModelBinders
     {
         public IModelBinder GetBinder(ModelBinderProviderContext context)
         {
-            throw new System.NotImplementedException();
+           if (context.BindingInfo.BinderModelName.ToLower()=="year"
+                && context.BindingInfo.BinderType == typeof(int))
+            {
+                return new YearModelBinder();
+            }
+
+            return null;
         }
     }
 }
