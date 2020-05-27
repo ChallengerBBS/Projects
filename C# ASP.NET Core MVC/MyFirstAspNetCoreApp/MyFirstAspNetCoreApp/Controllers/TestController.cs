@@ -3,6 +3,7 @@
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using MyFirstAspNetCoreApp.Services;
+    using MyFirstAspNetCoreApp.ValidationAttributes;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -36,7 +37,7 @@
         public string Email { get; set; }
 
         [Required]
-        [RegularExpression("[0-9]{10}", ErrorMessage = "Invalid EGN !")]
+        [EgnValidation]
         [Display(Name = "EGN")]
         public string Egn { get; set; }
 
