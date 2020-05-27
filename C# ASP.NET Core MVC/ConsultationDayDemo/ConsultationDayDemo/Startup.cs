@@ -12,6 +12,7 @@ using ConsultationDayDemo.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ConsultationDayDemo.SeedData;
 
 namespace ConsultationDayDemo
 {
@@ -30,8 +31,19 @@ namespace ConsultationDayDemo
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+
+            services.AddDefaultIdentity<IdentityUser>(options=>
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequiredLength = 3;
+                options.Password.RequiredUniqueChars = 0;
+                options.Password.RequireUppercase = false;
+            })
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
@@ -47,6 +59,11 @@ namespace ConsultationDayDemo
                 {
                     dbContext.Database.Migrate();
                 }
+
+                new ApplicationDbContextSeeder(scopedService.ServiceProvider, dbContext)
+                    .SeedDataAsync()
+                    .GetAwaiter()
+                    .GetResult();
 
             }
 
