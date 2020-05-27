@@ -20,7 +20,7 @@
         public string LastName { get; set; }
     }
 
-    public class TestInputModel
+    public class TestInputModel : IValidatableObject
     {
 
         [Required]
@@ -52,6 +52,14 @@
         public int CandidateType { get; set; }
 
         public IEnumerable<SelectListItem> AllTypes { get; set; }
+
+        public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        {
+            if(int.Parse(this.Egn.Substring(0,2))!= this.DateOfBirth.Year%100)
+            {
+                yield return new ValidationResult("Годината на раждане и ЕГН-то не са валидна комбинация");
+            }
+        }
     }
 
     public class TestController : Controller
