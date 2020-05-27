@@ -19,7 +19,6 @@ namespace MyFirstAspNetCoreApp.Controllers
         private readonly ICountInstancesService _countInstancesService;
         private readonly IConfiguration _configuration;
         private readonly IWebHostEnvironment _env;
-        private readonly ILogger _logger;
 
         public HomeController(
             ICountInstancesService countInstancesService,
@@ -30,7 +29,7 @@ namespace MyFirstAspNetCoreApp.Controllers
             _countInstancesService = countInstancesService;
             _configuration = configuration;
             _env = env;
-            ;
+            
         }
 
         public IActionResult HttpError(int statusCode)

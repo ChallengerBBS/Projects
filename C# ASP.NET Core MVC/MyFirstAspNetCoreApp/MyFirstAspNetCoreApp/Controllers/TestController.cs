@@ -1,8 +1,12 @@
 ﻿namespace MyFirstAspNetCoreApp.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+    using MyFirstAspNetCoreApp.Services;
     using System;
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+
 
     public class Names
     {
@@ -41,16 +45,29 @@
         public DateTime DateOfBirth { get; set; }
 
         [Display(Name ="Years of experience")]
-        [Range(1,int.MaxValue)]
+        [Range(1,100)]
         public int YearsOfExperience { get; set; }
+
+        public int CandidateType { get; set; }
+
+        public IEnumerable<SelectListItem> AllTypes { get; set; }
     }
 
     public class TestController : Controller
     {
+        private readonly IPositionService positionService;
 
+        public TestController(IPositionService positionService)
+        {
+            this.positionService = positionService;
+        }
         public IActionResult Index()
         {
-            return this.View();
+            var model = new TestInputModel
+            {
+                AllTypes = positionService.GetAll()
+            };
+            return this.View(model);
         }
 
         [HttpPost]
@@ -58,6 +75,7 @@
         {
             if (!ModelState.IsValid)
             {
+                input.AllTypes = positionService.GetAll();
                 return View(input);
             }
             return Json(input);

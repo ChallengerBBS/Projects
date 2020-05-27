@@ -32,6 +32,7 @@ namespace MyFirstAspNetCoreApp
             });
             services.AddTransient<IStringManipulation, StringManipulation>();
             services.AddTransient<IYearsService, YearsService>();
+            services.AddTransient<IPositionService, PositionService>();
             services.AddScoped<ICountInstancesService, CountInstancesService>();
         }
 
