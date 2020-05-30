@@ -1,16 +1,21 @@
 ﻿@using MyFirstAspNetCoreApp.ViewModels.Home
-@using Microsoft.AspNetCore.Hosting;
 @model IndexViewModel
-@inject IWebHostEnvironment Env
-@inject Microsoft.Extensions.Configuration.IConfiguration Configuration
-@inject MyFirstAspNetCoreApp.Services.ICountInstancesService CountInstancesService
 
-@{
-    ViewData["Title"] = "Home Page";
-}
-    <div><h2>@CountInstancesService.Instances</h2></div>
+<button class="btn btn-lg btn-primary" onclick="hello()">Click me !</button>
+<div id="placeholderElement"></div>
 
-
+<script>
+    function hello() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = funtion() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("placeholderElement").innerHTML = this.responseText;
+            }
+        }
+        xhr.open("GET", "/Test/Index", true);
+        xhr.send();
+    }
+</script>
 
 
 
