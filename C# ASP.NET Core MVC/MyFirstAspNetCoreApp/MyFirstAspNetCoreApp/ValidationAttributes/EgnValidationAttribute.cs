@@ -7,6 +7,12 @@
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
+            if (value==null)
+            {
+                return new ValidationResult("Value cannot be null.");
+            }
+
+
             var valueAsString = value.ToString();
 
             if (!Regex.IsMatch(valueAsString, "[0-9]{10}"))
