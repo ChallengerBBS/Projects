@@ -4,6 +4,7 @@
     using Catstagram.Data.Models.Base;
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
     using System;
     using System.Linq;
     using System.Threading;
@@ -19,20 +20,28 @@
         public DbSet<Cat> Cats { get; set; }
         public override int SaveChanges()
         {
+            ApplyAuditInformation();
+
             return base.SaveChanges();
         }
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
         {
+            ApplyAuditInformation();
+
             return base.SaveChanges(acceptAllChangesOnSuccess);
         }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
+            ApplyAuditInformation();
+
             return base.SaveChangesAsync(cancellationToken);
         }
 
         public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
         {
+            ApplyAuditInformation();
+
             return base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
         }
 
@@ -51,19 +60,35 @@
             base.OnModelCreating(builder);
         }
 
-        private void ApplyAuditInformation()
-        {
-            var entries = this.ChangeTracker.Entries();
+        private void ApplyAuditInformation() 
+            => this.ChangeTracker
+                .Entries()
+                .Select(entry => new
+                {
+                    entry.Entity,
+                    entry.State
+                })
+            .ToList()
+                .ForEach(entry =>
+                {
+                    if (entry.Entity is IDeletableEntity deletableEntity)
+                    {
 
-            var createdEntities = entries
-                .Where(entry=>entry.State==EntityState.Added)
-                .Select(entity=>entity.Entity)
-                .OfType<IEntity>();
+                    }
+                    else if (entry.Entity is IEntity entity)
+                    {
+                        if (entry.State == EntityState.Added)
+                        {
+                            entity.CreatedOn = DateTime.UtcNow;
+                        }
 
-            foreach (var createdEntity in createdEntities)
-            {
-                createdEntity.CreatedOn = DateTime.UtcNow;
-            }
-        }
+                        else if (entry.State == EntityState.Modified)
+                        {
+                            entity.ModifiedOn = DateTime.UtcNow;
+                        }
+                    }
+                });
+
     }
 }
+
