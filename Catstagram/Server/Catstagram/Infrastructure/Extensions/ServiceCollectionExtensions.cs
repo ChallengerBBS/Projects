@@ -15,6 +15,7 @@
     using Catstagram.Features.Identity;
     using Catstagram.Features.Cats;
     using Catstagram.Infrastructure.Filters;
+    using Catstagram.Infrastructure.Services;
 
     public static class ServiceCollectionExtensions
     {
@@ -79,6 +80,7 @@
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
             => services
                 .AddTransient<IIdentityService, IdentityService>()
+                .AddScoped<ICurrentUserService, CurrentUserService>()
                 .AddTransient<ICatService, CatService>();
 
         public static IServiceCollection AddSwagger(this IServiceCollection services)
