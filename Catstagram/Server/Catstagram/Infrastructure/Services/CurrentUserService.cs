@@ -9,9 +9,9 @@ namespace Catstagram.Infrastructure.Services
         private readonly ClaimsPrincipal user;
 
         public CurrentUserService(IHttpContextAccessor httpContextAccessor)
-            => this.user = httpContextAccessor.HttpContext.User;
+            => this.user = httpContextAccessor.HttpContext?.User;
 
-        public string GetUserId()
+        public string GetId()
        => this.user?.GetId();
 
         public string GetUserName()

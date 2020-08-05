@@ -4,6 +4,6 @@
     {
         string GetUserName();
 
-        string GetUserId();
+        string GetId();
     }
 }

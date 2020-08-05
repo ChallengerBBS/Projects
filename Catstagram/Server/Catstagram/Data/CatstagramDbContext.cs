@@ -2,6 +2,7 @@
 {
     using Catstagram.Data.Models;
     using Catstagram.Data.Models.Base;
+    using Catstagram.Infrastructure.Services;
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
@@ -12,10 +13,12 @@
 
     public class CatstagramDbContext : IdentityDbContext<User>
     {
-        public CatstagramDbContext(DbContextOptions<CatstagramDbContext> options)
+        private readonly ICurrentUserService currentUser;
+
+        public CatstagramDbContext(DbContextOptions<CatstagramDbContext> options, ICurrentUserService currentUser)
             : base(options)
-        {
-        }
+           => this.currentUser = currentUser;
+
         //This is a comment for test purposes
         public DbSet<Cat> Cats { get; set; }
         public override int SaveChanges()
@@ -71,8 +74,12 @@
             .ToList()
                 .ForEach(entry =>
                 {
+                    var userName = this.currentUser.GetUserName();
+
                     if (entry.Entity is IDeletableEntity deletableEntity)
                     {
+                        deletableEntity.DeletedOn = DateTime.UtcNow;
+                        deletableEntity.DeletedBy = userName;
 
                     }
                     else if (entry.Entity is IEntity entity)
@@ -80,11 +87,13 @@
                         if (entry.State == EntityState.Added)
                         {
                             entity.CreatedOn = DateTime.UtcNow;
+                            entity.CreatedBy = userName;
                         }
 
                         else if (entry.State == EntityState.Modified)
                         {
                             entity.ModifiedOn = DateTime.UtcNow;
+                            entity.ModifiedBy = userName;
                         }
                     }
                 });

@@ -10,14 +10,13 @@ namespace Catstagram.Data.Migrations
             migrationBuilder.AddColumn<string>(
                 name: "CreatedBy",
                 table: "Cats",
-                nullable: false,
-                defaultValue: "");
+                nullable: true);
 
             migrationBuilder.AddColumn<DateTime>(
                 name: "CreatedOn",
                 table: "Cats",
                 nullable: false,
-                defaultValue: new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc));
+                defaultValue: new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
             migrationBuilder.AddColumn<string>(
                 name: "DeletedBy",
@@ -45,17 +44,17 @@ namespace Catstagram.Data.Migrations
                 table: "Cats",
                 nullable: true);
 
-            migrationBuilder.AddColumn<DateTime>(
-                name: "CreateOn",
-                table: "AspNetUsers",
-                nullable: false,
-                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
-
             migrationBuilder.AddColumn<string>(
                 name: "CreatedBy",
                 table: "AspNetUsers",
                 nullable: false,
                 defaultValue: "");
+
+            migrationBuilder.AddColumn<DateTime>(
+                name: "CreatedOn",
+                table: "AspNetUsers",
+                nullable: false,
+                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
             migrationBuilder.AddColumn<string>(
                 name: "ModifiedBy",
@@ -99,11 +98,11 @@ namespace Catstagram.Data.Migrations
                 table: "Cats");
 
             migrationBuilder.DropColumn(
-                name: "CreateOn",
+                name: "CreatedBy",
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(
-                name: "CreatedBy",
+                name: "CreatedOn",
                 table: "AspNetUsers");
 
             migrationBuilder.DropColumn(
