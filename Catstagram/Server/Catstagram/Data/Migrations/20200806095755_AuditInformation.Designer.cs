@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Catstagram.Data.Migrations
 {
     [DbContext(typeof(CatstagramDbContext))]
-    [Migration("20200805154150_AuditInformation")]
+    [Migration("20200806095755_AuditInformation")]
     partial class AuditInformation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -82,7 +82,6 @@ namespace Catstagram.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CreatedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedOn")

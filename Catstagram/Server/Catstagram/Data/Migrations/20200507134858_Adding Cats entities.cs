@@ -1,7 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
-
-namespace Catstagram.Data.Migrations
+﻿namespace Catstagram.Data.Migrations
 {
+    using Microsoft.EntityFrameworkCore.Migrations;
     public partial class AddingCatsentities : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
-
-namespace Catstagram.Data.Migrations
+﻿namespace Catstagram.Data.Migrations
 {
+    using System;
+    using Microsoft.EntityFrameworkCore.Migrations;
     public partial class AuditInformation : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -47,14 +46,13 @@ namespace Catstagram.Data.Migrations
             migrationBuilder.AddColumn<string>(
                 name: "CreatedBy",
                 table: "AspNetUsers",
-                nullable: false,
-                defaultValue: "");
+                nullable: true);
 
             migrationBuilder.AddColumn<DateTime>(
                 name: "CreatedOn",
                 table: "AspNetUsers",
                 nullable: false,
-                defaultValue: new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
+                defaultValue: new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
             migrationBuilder.AddColumn<string>(
                 name: "ModifiedBy",

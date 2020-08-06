@@ -21,12 +21,7 @@
 
         //This is a comment for test purposes
         public DbSet<Cat> Cats { get; set; }
-        public override int SaveChanges()
-        {
-            ApplyAuditInformation();
-
-            return base.SaveChanges();
-        }
+     
         public override int SaveChanges(bool acceptAllChangesOnSuccess)
         {
             ApplyAuditInformation();
@@ -34,12 +29,6 @@
             return base.SaveChanges(acceptAllChangesOnSuccess);
         }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-        {
-            ApplyAuditInformation();
-
-            return base.SaveChangesAsync(cancellationToken);
-        }
 
         public override Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
         {
@@ -55,6 +44,7 @@
         {
             builder
                 .Entity<Cat>()
+                .HasQueryFilter(c=>!c.IsDeleted)
                 .HasOne(c => c.User)
                 .WithMany(u => u.Cats)
                 .HasForeignKey(c => c.UserId)
@@ -63,14 +53,9 @@
             base.OnModelCreating(builder);
         }
 
-        private void ApplyAuditInformation() 
+        private void ApplyAuditInformation()
             => this.ChangeTracker
                 .Entries()
-                .Select(entry => new
-                {
-                    entry.Entity,
-                    entry.State
-                })
             .ToList()
                 .ForEach(entry =>
                 {
@@ -78,11 +63,19 @@
 
                     if (entry.Entity is IDeletableEntity deletableEntity)
                     {
-                        deletableEntity.DeletedOn = DateTime.UtcNow;
-                        deletableEntity.DeletedBy = userName;
+                        if (entry.State == EntityState.Deleted)
+                        {
+                            deletableEntity.DeletedOn = DateTime.UtcNow;
+                            deletableEntity.DeletedBy = userName;
+                            deletableEntity.IsDeleted = true;
+
+                            entry.State = EntityState.Modified;
+
+                            return;
+                        }
 
                     }
-                    else if (entry.Entity is IEntity entity)
+                    if (entry.Entity is IEntity entity)
                     {
                         if (entry.State == EntityState.Added)
                         {
