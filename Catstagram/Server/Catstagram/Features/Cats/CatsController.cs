@@ -27,17 +27,14 @@
 
         [HttpGet]
         public async Task<IEnumerable<CatListingServiceModel>> Mine()
-        {
-            var userId = this.currentUser.GetId();
+        => await this.cats.ByUser(this.currentUser.GetId());
 
-            return await this.cats.ByUser(userId);
-        }
 
         [HttpGet]
         [Route(Id)]
-        public async Task<ActionResult<CatDetailsServiceModel>> Details(int id) 
+        public async Task<ActionResult<CatDetailsServiceModel>> Details(int id)
 
-            =>  await this.cats.Details(id);
+            => await this.cats.Details(id);
 
         [HttpPost]
         public async Task<ActionResult> Create(CreateCatRequestModel model)
@@ -45,8 +42,8 @@
             var userId = this.currentUser.GetId();
 
             var catId = await this.cats.Create(
-                                                    model.ImageUrl, 
-                                                    model.Description, 
+                                                    model.ImageUrl,
+                                                    model.Description,
                                                     userId);
 
             return Created(nameof(this.Create), catId);

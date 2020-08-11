@@ -1,19 +1,14 @@
-﻿namespace Catstagram.Data.Models
+﻿namespace Catstagram.Features.Identity.Models
 {
-    using System.ComponentModel.DataAnnotations;
+    using Catstagram.Data.Models;
 
-    using static Validation.User;
-
-    public class Profile
+    public class ProfileServiceModel
     {
-        [MaxLength(MaxNameLength)]
         public string Name { get; set; }
 
         public string MainPhotoUrl { get; set; }
 
         public string Website { get; set; }
-
-        [MaxLength(MaxBiographyLength)]
         public string Biography { get; set; }
 
         public Gender Gender { get; set; }

@@ -8,6 +8,7 @@
 
     using Catstagram.Data.Models;
     using Catstagram.Features.Identity.Models;
+    using Microsoft.AspNetCore.Authorization;
 
     public class IdentityController : ApiController
     {
@@ -24,7 +25,8 @@
             this.identity = identity;
             this.appSettings = appSettings.Value;
         }
-       
+
+
         [HttpPost]
         [Route(nameof(Register))]
         public async Task<IActionResult> Register(RegisterRequestModel model)
@@ -74,5 +76,7 @@
                 Token = token
             };
         }
+
+      
     }
 }

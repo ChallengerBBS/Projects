@@ -284,42 +284,6 @@ namespace Catstagram.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Catstagram.Data.Models.User", b =>
-                {
-                    b.OwnsOne("Catstagram.Data.Models.Profile", "Profile", b1 =>
-                        {
-                            b1.Property<string>("UserId")
-                                .HasColumnType("nvarchar(450)");
-
-                            b1.Property<string>("Biography")
-                                .HasColumnType("nvarchar(150)")
-                                .HasMaxLength(150);
-
-                            b1.Property<int>("Gender")
-                                .HasColumnType("int");
-
-                            b1.Property<bool>("IsPrivate")
-                                .HasColumnType("bit");
-
-                            b1.Property<string>("Name")
-                                .HasColumnType("nvarchar(40)")
-                                .HasMaxLength(40);
-
-                            b1.Property<string>("ProfilePhotoUrl")
-                                .HasColumnType("nvarchar(max)");
-
-                            b1.Property<string>("Website")
-                                .HasColumnType("nvarchar(max)");
-
-                            b1.HasKey("UserId");
-
-                            b1.ToTable("AspNetUsers");
-
-                            b1.WithOwner()
-                                .HasForeignKey("UserId");
-                        });
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
