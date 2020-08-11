@@ -67,6 +67,7 @@
         => await this.data
             .Cats
             .Where(c => c.UserId == userId)
+            .OrderBy(c=>c.CreatedOn)
             .Select(c => new CatListingServiceModel
             {
                 Id = c.Id,
