@@ -6,7 +6,6 @@
 
     public class UpdateCatRequestModel
     {
-        public int Id { get; set; }
 
         [Required]
         [MaxLength(MaxDescriptionLength)]

@@ -8,6 +8,8 @@
     using Catstagram.Features.Identity.Models;
     using Catstagram.Infrastructure.Services;
     using Catstagram.Infrastructure.Extensions;
+    using Microsoft.EntityFrameworkCore.Update.Internal;
+    using Catstagram.Features.Profiles.Models;
 
     public class ProfilesController : ApiController
     {
@@ -23,5 +25,31 @@
         [Authorize]
         public async Task<ActionResult<ProfileServiceModel>> Mine()
         => await this.profiles.ByUser(this.currentUser.GetId());
+
+        [HttpPut]
+        [Authorize]
+        public async Task<ActionResult> Update(UpdateProfileRequestModel model)
+        {
+            var userId = this.currentUser.GetId();
+
+            var updated = await this.profiles.Update(
+                userId,
+                model.Email,
+                model.UserName,
+                model.Name,
+                model.MainPhotoUrl,
+                model.Website,
+                model.Biography,
+                model.Gender,
+                model.IsPrivate
+                );
+
+            if (!updated)
+            {
+                return BadRequest();
+            }
+
+            return this.Ok();
+        }
     }
 }

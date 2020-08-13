@@ -37,24 +37,29 @@
             => await this.cats.Details(id);
 
         [HttpPost]
+        
         public async Task<ActionResult> Create(CreateCatRequestModel model)
         {
             var userId = this.currentUser.GetId();
 
             var catId = await this.cats.Create(
-                                                    model.ImageUrl,
-                                                    model.Description,
-                                                    userId);
+                   model.ImageUrl,
+                   model.Description,
+                   userId);
 
             return Created(nameof(this.Create), catId);
         }
 
         [HttpPut]
-        public async Task<ActionResult> Update(UpdateCatRequestModel model)
+        [Route(Id)]
+        public async Task<ActionResult> Update(int id, UpdateCatRequestModel model)
         {
             var userId = this.currentUser.GetId();
 
-            var updated = await this.cats.Update(model.Id, model.Description, userId);
+            var updated = await this.cats.Update(
+                id, 
+                model.Description, 
+                userId);
 
             if (!updated)
             {
