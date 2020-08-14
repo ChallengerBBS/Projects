@@ -9,6 +9,7 @@
     using Catstagram.Data;
     using Catstagram.Data.Models;
     using Catstagram.Features.Cats.Models;
+    using Catstagram.Infrastructure.Services;
 
     public class CatService : ICatService
     {
@@ -34,13 +35,13 @@
             return cat.Id;
         }
 
-        public async Task<bool> Update(int id, string description, string userId)
+        public async Task<Result> Update(int id, string description, string userId)
         {
             var cat = await this.GetByUserAndById(id, userId);
 
             if (cat==null)
             {
-                return false;
+                return "This user cannot edit this cat";
             }
 
             cat.Description = description;
@@ -49,12 +50,12 @@
 
         }
 
-        public async Task<bool> Delete(int id, string userId)
+        public async Task<Result> Delete(int id, string userId)
         {
             var cat = await this.GetByUserAndById(id, userId);
             if (cat == null)
             {
-                return false;
+                return "This user cannot delete this cat";
             }
 
             this.data.Remove(cat);

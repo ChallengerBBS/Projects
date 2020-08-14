@@ -3,12 +3,13 @@
     using System.Threading.Tasks;
     using Catstagram.Data.Models;
     using Catstagram.Features.Identity.Models;
-    
+    using Catstagram.Infrastructure.Services;
+
     public interface IProfileService
     {
         Task<ProfileServiceModel> ByUser(string userId);
 
-        Task<bool> Update(
+        Task<Result> Update(
             string userId,
             string email,
             string userName,

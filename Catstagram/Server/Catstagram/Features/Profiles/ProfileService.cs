@@ -6,6 +6,7 @@
     using Catstagram.Data;
     using Catstagram.Data.Models;
     using Catstagram.Features.Identity.Models;
+    using Catstagram.Infrastructure.Services;
     using Microsoft.EntityFrameworkCore;
 
     public class ProfileService : IProfileService
@@ -31,7 +32,7 @@
             })
             .FirstOrDefaultAsync();
 
-        public async Task<bool> Update(
+        public async Task<Result> Update(
             string userId, 
             string email, 
             string userName, 
@@ -47,7 +48,7 @@
 
             if (user == null)
             {
-                return false;
+                return "User does not exist";
             }
 
             if (!string.IsNullOrWhiteSpace(email) && user.Email!=email)
@@ -58,7 +59,7 @@
 
                 if(emailExists)
                 {
-                    return false;
+                    return "The email is already taken.";
                 }
 
                 user.Email = email;
@@ -72,7 +73,7 @@
 
                 if (userNameExists)
                 {
-                    return false;
+                    return "Username is already taken";
                 }
 
                 user.UserName = userName;

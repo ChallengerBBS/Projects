@@ -32,7 +32,7 @@
         {
             var userId = this.currentUser.GetId();
 
-            var updated = await this.profiles.Update(
+            var result = await this.profiles.Update(
                 userId,
                 model.Email,
                 model.UserName,
@@ -41,12 +41,11 @@
                 model.Website,
                 model.Biography,
                 model.Gender,
-                model.IsPrivate
-                );
+                model.IsPrivate);
 
-            if (!updated)
+            if (result.Failed)
             {
-                return BadRequest();
+                return BadRequest(result.Error);
             }
 
             return this.Ok();

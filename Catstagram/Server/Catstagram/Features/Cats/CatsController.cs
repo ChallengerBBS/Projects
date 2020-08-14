@@ -56,12 +56,12 @@
         {
             var userId = this.currentUser.GetId();
 
-            var updated = await this.cats.Update(
+            var result = await this.cats.Update(
                 id, 
                 model.Description, 
                 userId);
 
-            if (!updated)
+            if (result.Failed)
             {
                 return BadRequest();
             }
@@ -77,9 +77,9 @@
         {
             var userId = this.currentUser.GetId();
 
-            var deleted = await this.cats.Delete(id, userId);
+            var result = await this.cats.Delete(id, userId);
 
-            if (!deleted)
+            if (result.Failed)
             {
                 return BadRequest();
             }
