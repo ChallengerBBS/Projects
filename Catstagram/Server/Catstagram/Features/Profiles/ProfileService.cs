@@ -14,7 +14,7 @@
         private readonly CatstagramDbContext data;
 
         public ProfileService(CatstagramDbContext data)
-        =>  this.data = data;
+        => this.data = data;
 
         public async Task<ProfileServiceModel> ByUser(string userId)
         => await this.data
@@ -23,49 +23,91 @@
             .Select(u => new ProfileServiceModel
             {
                 Name = u.Profile.Name,
-                MainPhotoUrl=u.Profile.MainPhotoUrl,
-                Website= u.Profile.Website,
+                MainPhotoUrl = u.Profile.MainPhotoUrl,
+                Website = u.Profile.Website,
                 Biography = u.Profile.Biography,
                 Gender = u.Profile.Gender.ToString(),
-                IsPrivate=u.Profile.IsPrivate
+                IsPrivate = u.Profile.IsPrivate
 
             })
             .FirstOrDefaultAsync();
 
         public async Task<Result> Update(
-            string userId, 
-            string email, 
-            string userName, 
-            string name, 
-            string mainPhotoUrl, 
-            string website, 
-            string biography, 
-            Gender gender, 
+            string userId,
+            string email,
+            string userName,
+            string name,
+            string mainPhotoUrl,
+            string website,
+            string biography,
+            Gender gender,
             bool isPrivate)
 
         {
-            var user = await this.data.Users.FindAsync(userId);
+            var user = await this.data
+                .Users
+                .Include(u => u.Profile)
+                .FirstOrDefaultAsync(p => p.Id == userId);
 
             if (user == null)
             {
                 return "User does not exist";
             }
 
-            if (!string.IsNullOrWhiteSpace(email) && user.Email!=email)
+            if (user.Profile==null)
+            {
+                user.Profile = new Profile();
+            }
+
+
+            var result = await this.ChangeProfileEmail(user, userId, email);
+            if (result.Failed)
+            {
+                return result;
+            }
+
+            result = await this.ChangeUserName(user, userId, userName);
+            if (result.Failed)
+            {
+                return result;
+            }
+
+
+            return await this.ChangeProfile(
+                user.Profile,
+                userId,
+                email,
+                userName,
+                name,
+                mainPhotoUrl,
+                website,
+                biography,
+                gender,
+                isPrivate);
+
+        }
+
+        private async Task<Result> ChangeProfileEmail(User user, string userId, string email)
+        {
+            if (!string.IsNullOrWhiteSpace(email) && user.Email != email)
             {
                 var emailExists = await this.data
                     .Users
-                    .AnyAsync(u => u.Id!=userId&& u.Email == email);
+                    .AnyAsync(u => u.Id != userId && u.Email == email);
 
-                if(emailExists)
+                if (emailExists)
                 {
                     return "The email is already taken.";
                 }
 
                 user.Email = email;
             }
+            return true;
+        }
 
-            if (!string.IsNullOrWhiteSpace(userName)&& user.UserName!=userName)
+        private async Task<Result> ChangeUserName(User user, string userId, string userName)
+        {
+            if (!string.IsNullOrWhiteSpace(userName) && user.UserName != userName)
             {
                 var userNameExists = await this.data
                     .Users
@@ -79,15 +121,52 @@
                 user.UserName = userName;
             }
 
-            user.Profile.Name = name;
-            user.Profile.MainPhotoUrl = mainPhotoUrl;
-            user.Profile.Website = website;
-            user.Profile.Biography = biography;
-            user.Profile.Gender = gender;
-            user.Profile.IsPrivate = isPrivate;
+            return true;
+        }
+        private async Task<Result> ChangeProfile(
+            Profile profile,
+            string userId,
+            string email,
+            string userName,
+            string name,
+            string mainPhotoUrl,
+            string website,
+            string biography,
+            Gender gender,
+            bool isPrivate)
+        {
+            if (profile.Name != name)
+            {
+                profile.Name = name;
+            }
 
+            if (profile.MainPhotoUrl != mainPhotoUrl)
+            {
+                profile.MainPhotoUrl = mainPhotoUrl;
+            }
+
+            if (profile.Website != website)
+            {
+                profile.Website = website;
+            }
+
+            if (profile.Biography != biography)
+            {
+                profile.Biography = biography;
+            }
+
+            if (profile.Gender != gender)
+            {
+                profile.Gender = gender;
+            }
+
+            if (profile.IsPrivate != isPrivate)
+            {
+                profile.IsPrivate = isPrivate;
+            }
             await this.data.SaveChangesAsync();
             return true;
         }
+       
     }
 }

@@ -9,7 +9,7 @@
 
     public class User : IdentityUser, IEntity
     {
-       public Profile Profile { get; set; }
+        public Profile Profile { get; set; } = new Profile();
 
         public DateTime CreatedOn { get; set; }
 

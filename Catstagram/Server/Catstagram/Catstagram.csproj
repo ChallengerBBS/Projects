@@ -12,8 +12,12 @@
     <Compile Remove="Data\Migrations\20200729131205_AuditInformation.Designer.cs" />
     <Compile Remove="Data\Migrations\20200805154150_AuditInformation.cs" />
     <Compile Remove="Data\Migrations\20200805154150_AuditInformation.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200806095755_AuditInformation.cs" />
+    <Compile Remove="Data\Migrations\20200806095755_AuditInformation.Designer.cs" />
     <Compile Remove="Data\Migrations\20200811095507_UserProfile.cs" />
     <Compile Remove="Data\Migrations\20200811095507_UserProfile.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200815134127_UserProfiles.cs" />
+    <Compile Remove="Data\Migrations\20200815134127_UserProfiles.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
