@@ -3,17 +3,14 @@
     using System.Threading.Tasks;
     using System.Collections.Generic;
 
-    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
     using Features.Cats.Models;
     using Features.Cat.Models;
-    using Infrastructure.Extensions;
 
     using static Infrastructure.WebConstants;
     using Catstagram.Infrastructure.Services;
 
-    [Authorize]
     public class CatsController : ApiController
     {
         private readonly ICatService cats;

@@ -2,13 +2,10 @@
 {
     using System.Threading.Tasks;
     
-    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
     using Catstagram.Features.Identity.Models;
     using Catstagram.Infrastructure.Services;
-    using Catstagram.Infrastructure.Extensions;
-    using Microsoft.EntityFrameworkCore.Update.Internal;
     using Catstagram.Features.Profiles.Models;
 
     public class ProfilesController : ApiController
@@ -22,12 +19,10 @@
         }
 
         [HttpGet]
-        [Authorize]
         public async Task<ActionResult<ProfileServiceModel>> Mine()
         => await this.profiles.ByUser(this.currentUser.GetId());
 
         [HttpPut]
-        [Authorize]
         public async Task<ActionResult> Update(UpdateProfileRequestModel model)
         {
             var userId = this.currentUser.GetId();

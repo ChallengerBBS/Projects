@@ -28,6 +28,7 @@
 
 
         [HttpPost]
+        [AllowAnonymous]
         [Route(nameof(Register))]
         public async Task<IActionResult> Register(RegisterRequestModel model)
         {
@@ -49,6 +50,7 @@
         }
 
         [HttpPost]
+        [AllowAnonymous]
         [Route(nameof(Login))]
         public async Task<ActionResult<LoginResponseModel>> Login (LoginRequestModel model)
         {
