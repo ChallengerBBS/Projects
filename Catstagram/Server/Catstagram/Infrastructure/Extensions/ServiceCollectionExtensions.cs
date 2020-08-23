@@ -18,6 +18,7 @@
     using Catstagram.Infrastructure.Services;
     using Catstagram.Features.Profiles;
     using Catstagram.Features.Follows;
+    using Catstagram.Features.Search;
 
     public static class ServiceCollectionExtensions
     {
@@ -85,6 +86,7 @@
                 .AddScoped<ICurrentUserService, CurrentUserService>()
                 .AddTransient<IProfileService, ProfileService>()
                 .AddTransient<ICatService, CatService>()
+                .AddTransient<ISearchService, SearchService>()
                 .AddTransient<IFollowService, FollowService>();
 
         public static IServiceCollection AddSwagger(this IServiceCollection services)
