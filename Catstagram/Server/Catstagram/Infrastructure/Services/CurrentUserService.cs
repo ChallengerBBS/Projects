@@ -1,9 +1,9 @@
-﻿using Catstagram.Infrastructure.Extensions;
-using Microsoft.AspNetCore.Http;
-using System.Security.Claims;
-
-namespace Catstagram.Infrastructure.Services
+﻿namespace Catstagram.Infrastructure.Services
 {
+    using Catstagram.Infrastructure.Extensions;
+    using Microsoft.AspNetCore.Http;
+    using System.Security.Claims;
+
     public class CurrentUserService : ICurrentUserService
     {
         private readonly ClaimsPrincipal user;

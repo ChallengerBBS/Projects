@@ -29,7 +29,7 @@
 
         [HttpGet]
         [Route(Id)]
-        public async Task<ActionResult<CatDetailsServiceModel>> Details(int id)
+        public async Task<CatDetailsServiceModel> Details(int id)
 
             => await this.cats.Details(id);
 

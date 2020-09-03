@@ -3,11 +3,12 @@
     using System.Linq;
     using System.Threading.Tasks;
 
+    using Microsoft.EntityFrameworkCore;
+
     using Catstagram.Data;
     using Catstagram.Data.Models;
     using Catstagram.Infrastructure.Services;
-    using Microsoft.CodeAnalysis.Operations;
-    using Microsoft.EntityFrameworkCore;
+
 
     public class FollowService : IFollowService
     {
@@ -35,14 +36,22 @@
 
             this.data.Follows.Add(new Follow
             {
-                UserId=userId,
-                FollowerId=followerId,
-                IsApproved= publicProfile
+                UserId = userId,
+                FollowerId = followerId,
+                IsApproved = publicProfile
             });
 
             await this.data.SaveChangesAsync();
 
             return true;
         }
+
+        public async Task<bool> IsFollower(string userId, string followerId)
+        => await this.data
+            .Follows
+            .AnyAsync(f =>
+                        f.UserId == userId &&
+                        f.FollowerId == followerId &&
+                        f.IsApproved);
     }
 }

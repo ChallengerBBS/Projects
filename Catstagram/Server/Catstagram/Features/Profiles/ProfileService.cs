@@ -3,11 +3,12 @@
     using System.Linq;
     using System.Threading.Tasks;
 
+    using Microsoft.EntityFrameworkCore;
+
     using Catstagram.Data;
     using Catstagram.Data.Models;
-    using Catstagram.Features.Identity.Models;
     using Catstagram.Infrastructure.Services;
-    using Microsoft.EntityFrameworkCore;
+    using Models;
 
     public class ProfileService : IProfileService
     {
@@ -16,21 +17,29 @@
         public ProfileService(CatstagramDbContext data)
         => this.data = data;
 
-        public async Task<ProfileServiceModel> ByUser(string userId)
+        public async Task<ProfileServiceModel> ByUser(string userId, bool allInformation = false)
         => await this.data
             .Users
             .Where(u => u.Id == userId)
-            .Select(u => new ProfileServiceModel
-            {
-                Name = u.Profile.Name,
-                MainPhotoUrl = u.Profile.MainPhotoUrl,
-                Website = u.Profile.Website,
-                Biography = u.Profile.Biography,
-                Gender = u.Profile.Gender.ToString(),
-                IsPrivate = u.Profile.IsPrivate
-
-            })
+        .Select(u => allInformation ?
+                new PublicProfileServiceModel
+                {
+                    Name = u.Profile.Name,
+                    MainPhotoUrl = u.Profile.MainPhotoUrl,
+                    Website = u.Profile.Website,
+                    Biography = u.Profile.Biography,
+                    Gender = u.Profile.Gender.ToString(),
+                    IsPrivate = u.Profile.IsPrivate
+                }
+                : new ProfileServiceModel
+                {
+                    Name = u.Profile.Name,
+                    MainPhotoUrl = u.Profile.MainPhotoUrl,
+                    IsPrivate = u.Profile.IsPrivate
+                })
             .FirstOrDefaultAsync();
+
+
 
         public async Task<Result> Update(
             string userId,
@@ -54,7 +63,7 @@
                 return "User does not exist";
             }
 
-            if (user.Profile==null)
+            if (user.Profile == null)
             {
                 user.Profile = new Profile();
             }
@@ -167,6 +176,11 @@
             await this.data.SaveChangesAsync();
             return true;
         }
-       
+
+        public async Task<bool> IsPublic(string userId)
+       => await this.data.Profiles
+            .Where(p => p.UserId == userId)
+            .Select(p => ! p.IsPrivate)
+            .FirstOrDefaultAsync();
     }
 }
