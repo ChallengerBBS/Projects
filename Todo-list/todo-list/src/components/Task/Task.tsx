@@ -6,7 +6,13 @@ export default function Task(props: TasksProps) {
     return (
         <>
             <div className={styles.task}>
-                {props.task.title}
+                <span className={styles.title}>
+                    {props.task.title}
+                </span>
+                <hr/>
+                <span className={styles.description}>
+                    {props.task.description}
+                </span>
             </div>
         </>
     );

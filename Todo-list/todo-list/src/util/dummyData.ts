@@ -13,13 +13,13 @@ export const tasks: Task[] = [
     title: "Schedule a meeting with the indy",
     description: "The BMW has to be fixed, so call the indy to arrange a meeting.",
     createdOn: new Date("2023-31-05"),
-    priority: 2,
+    priority: 1,
     status: TaskStatus.Pending
 },
 {
   title: "Brush your teeth",
   createdOn: new Date("2023-31-05"),
-  priority: 1,
+  priority: 2,
   status: TaskStatus.Canceled
 },
 ];
