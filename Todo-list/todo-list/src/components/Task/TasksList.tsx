@@ -3,8 +3,7 @@ import { Button } from "react-bootstrap";
 import { tasks } from "../../util/dummyData";
 
 import Task from "./Task";
-import BaseModal from "../../common/BaseModal";
-import { log } from "console";
+import TaskAddEditModal from "./TaskAddEditModal";
 
 export default function TasksList() {
   const [isNewTaskModalVisible, setIsNewTaskModalVisible] = useState(false);
@@ -24,7 +23,6 @@ export default function TasksList() {
           <Button
             variant="warning"
             onClick={() => {
-              console.log("hit");
               setIsNewTaskModalVisible(true);
             }}
           >
@@ -33,12 +31,7 @@ export default function TasksList() {
         </div>
 
         {isNewTaskModalVisible && (
-          <BaseModal
-            title="test"
-            onClose={() => setIsNewTaskModalVisible(false)}
-          >
-            asd
-          </BaseModal>
+          <TaskAddEditModal onClose={() => setIsNewTaskModalVisible(false)} />
         )}
       </div>
     </>

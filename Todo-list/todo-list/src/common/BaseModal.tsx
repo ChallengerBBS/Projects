@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 interface BaseModalProps {
   children: ReactNode;
@@ -13,18 +13,11 @@ export default function BaseModal({
   title,
 }: BaseModalProps) {
   return (
-    <>
-      <Modal>
-        <Modal.Dialog>
-          <Modal.Header>
-            <h2>{title}</h2>
-            <Button className="close-button" onClick={onClose}>
-              <span>&times;</span>
-            </Button>
-          </Modal.Header>
-          <Modal.Body>{children}</Modal.Body>
-        </Modal.Dialog>
-      </Modal>
-    </>
+    <Modal show={true} onHide={onClose} backdrop="static" keyboard={false}>
+      <Modal.Header closeButton>
+        <Modal.Title>{title}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>{children}</Modal.Body>
+    </Modal>
   );
 }
