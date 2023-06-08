@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
-import { tasks } from "../../util/dummyData";
 
 import Task from "./Task";
 import TaskAddEditModal from "./TaskAddEditModal";
+import useTaskService from "../../hooks/useTaskService";
 
 export default function TasksList() {
   const [isNewTaskModalVisible, setIsNewTaskModalVisible] = useState(false);
+  const { tasks, createTask, updateTask, deleteTask } = useTaskService();
 
   const sortedTasks = tasks.sort((a, b) => b.priority - a.priority);
 
@@ -31,7 +32,11 @@ export default function TasksList() {
         </div>
 
         {isNewTaskModalVisible && (
-          <TaskAddEditModal onClose={() => setIsNewTaskModalVisible(false)} />
+          <TaskAddEditModal
+            onClose={() => setIsNewTaskModalVisible(false)}
+            onCreateTask={createTask}
+            onEditTask={updateTask}
+          />
         )}
       </div>
     </>

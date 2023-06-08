@@ -2,8 +2,11 @@ import BaseModal from "../../common/BaseModal";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import { Task } from "../../types/types";
 import { Button, FormLabel } from "react-bootstrap";
+
 interface TaskAddEditModalProps {
   onClose: () => void;
+  onCreateTask: (task: Task) => void;
+  onEditTask: (id: number, updatedTask: Task) => void;
   model?: Task;
 }
 
@@ -19,6 +22,8 @@ const validateForm = (values: Task) => {
 
 export default function TaskAddEditModal({
   onClose,
+  onCreateTask,
+  onEditTask,
   model,
 }: TaskAddEditModalProps) {
   return (
@@ -26,11 +31,15 @@ export default function TaskAddEditModal({
       <Formik
         initialValues={model || new Task()}
         validate={validateForm}
-        onSubmit={(values, { setSubmitting }) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            setSubmitting(false);
-          }, 400);
+        onSubmit={(values) => {
+          if (model) {
+            onEditTask(model.id, values);
+            onClose();
+            return;
+          }
+
+          onCreateTask(values);
+          onClose();
         }}
       >
         {({ isSubmitting }) => (
@@ -47,7 +56,11 @@ export default function TaskAddEditModal({
               <ErrorMessage name="description" component="div" />
             </div>
 
-            <Button type="submit" disabled={isSubmitting}>
+            <Button type="button" variant="secondary" onClick={onClose}>
+              Cancel
+            </Button>
+
+            <Button type="submit" variant="primary" disabled={isSubmitting}>
               Submit
             </Button>
           </Form>

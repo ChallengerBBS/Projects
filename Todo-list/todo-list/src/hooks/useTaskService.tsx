@@ -17,11 +17,15 @@ const useTaskService = (): {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
+    const json = JSON.stringify(tasks);
+    localStorage.setItem("tasks", json);
+    console.log(json);
   }, [tasks]);
 
   const createTask = (task: Task) => {
+    task.id = tasks.length + 1;
     setTasks((prevTasks) => [...prevTasks, task]);
+    console.log("Added a task " + JSON.stringify(task));
   };
 
   const updateTask = (id: number, updatedTask: Task) => {
