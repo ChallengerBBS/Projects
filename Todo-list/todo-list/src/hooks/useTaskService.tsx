@@ -32,10 +32,14 @@ const useTaskService = (): {
     setTasks((prevTasks) =>
       prevTasks.map((task) => (task.id === id ? updatedTask : task))
     );
+
+    console.log("Updated a task " + JSON.stringify(updatedTask));
   };
 
   const deleteTask = (id: number) => {
     setTasks((prevTasks) => prevTasks.filter((task) => task.id !== id));
+
+    console.log("Deleted a task ID: " + id);
   };
 
   return { tasks, createTask, updateTask, deleteTask };
