@@ -7,19 +7,13 @@ const useTaskService = (): {
   updateTask: (id: number, updatedTask: Task) => void;
   deleteTask: (id: number) => void;
 } => {
-  const [tasks, setTasks] = useState<Task[]>([]);
-
-  useEffect(() => {
-    const storedTasks = localStorage.getItem("tasks");
-    if (storedTasks) {
-      setTasks(JSON.parse(storedTasks));
-    }
-  }, []);
+  const storedTasks = JSON.parse(localStorage.getItem("tasks") || "");
+  const [tasks, setTasks] = useState<Task[]>(storedTasks);
 
   useEffect(() => {
     const json = JSON.stringify(tasks);
     localStorage.setItem("tasks", json);
-    console.log(json);
+    console.log("Set tasks to localStorage");
   }, [tasks]);
 
   const createTask = (task: Task) => {
