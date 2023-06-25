@@ -211,13 +211,6 @@
   cursor: pointer;
 }
 
-.userModalClose {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  cursor: pointer;
-}
-
 .yachtBtn {
   background-color: #f00;
   color: #fff;

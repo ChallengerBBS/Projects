@@ -44,25 +44,30 @@ export default function TaskAddEditModal({
       >
         {({ isSubmitting }) => (
           <Form>
-            <div>
-              <FormLabel htmlFor="title">Title</FormLabel>
-              <Field type="text" id="title" name="title" />
-              <ErrorMessage name="title" component="div" />
+            <div style={{ alignContent: "left" }}>
+              <div>
+                <FormLabel htmlFor="title">Title:&nbsp;</FormLabel>
+                <Field type="text" id="title" name="title" />
+                <ErrorMessage name="title" component="div" />
+              </div>
+
+              <div>
+                <FormLabel htmlFor="description">Description:&nbsp;</FormLabel>
+                <Field type="text" id="description" name="description" />
+              </div>
             </div>
-
-            <div>
-              <FormLabel htmlFor="description">Description</FormLabel>
-              <Field type="text" id="description" name="description" />
-              <ErrorMessage name="description" component="div" />
+            <div className="row">
+              <div className="col-6">
+                <Button type="button" variant="secondary" onClick={onClose}>
+                  Cancel
+                </Button>
+              </div>
+              <div className="col-6">
+                <Button type="submit" variant="primary" disabled={isSubmitting}>
+                  Submit
+                </Button>
+              </div>
             </div>
-
-            <Button type="button" variant="secondary" onClick={onClose}>
-              Cancel
-            </Button>
-
-            <Button type="submit" variant="primary" disabled={isSubmitting}>
-              Submit
-            </Button>
           </Form>
         )}
       </Formik>

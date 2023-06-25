@@ -13,7 +13,13 @@ export default function BaseModal({
   title,
 }: BaseModalProps) {
   return (
-    <Modal show={true} onHide={onClose} backdrop="static" keyboard={false}>
+    <Modal
+      show={true}
+      onHide={onClose}
+      backdrop="static"
+      keyboard={false}
+      centered
+    >
       <Modal.Header closeButton>
         <Modal.Title>{title}</Modal.Title>
       </Modal.Header>
