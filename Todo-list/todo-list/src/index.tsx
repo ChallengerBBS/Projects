@@ -5,16 +5,30 @@ import reportWebVitals from "./reportWebVitals";
 
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter } from "react-router-dom";
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import TasksList from "./components/Task/TasksList";
+import ErrorPage from "./common/ErrorPage";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<App />} errorElement={<ErrorPage />}>
+      <Route path="tasks" element={<TasksList />} />
+    </Route>
+  )
+);
+
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

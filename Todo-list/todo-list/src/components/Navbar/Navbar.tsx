@@ -1,7 +1,6 @@
 import { useState } from "react";
 import classes from "./navbar.module.css";
 import { Link, useNavigate } from "react-router-dom";
-import { Button } from "react-bootstrap";
 
 const Navbar = () => {
   const [state, setState] = useState({});
@@ -14,7 +13,7 @@ const Navbar = () => {
   const user = JSON.parse(localStorage.getItem("user") || "");
 
   window.onscroll = () => {
-    setIsScrolled(window.pageYOffset === 0 ? false : true);
+    setIsScrolled(window.scrollY === 0 ? false : true);
     return () => (window.onscroll = null);
   };
 
@@ -36,15 +35,17 @@ const Navbar = () => {
     <div className={`${classes.container} ${isScrolled && classes.scrolled}`}>
       <div className={classes.wrapper}>
         <Link to="/" onClick={scrollToTop} className={classes.left}>
-          Todo list
+          Scheduler
         </Link>
         <ul className={classes.center}>
           <li onClick={scrollToTop} className={classes.listItem}>
             Home
           </li>
-          <li className={classes.listItem}>About</li>
-          <li className={classes.listItem}>Featured</li>
-          <li className={classes.listItem}>Contacts</li>
+          <li>
+            <Link to="/tasks" className={classes.listItem}>
+              Tasks list
+            </Link>
+          </li>
         </ul>
         <div className={classes.right}>
           {!user ? (
