@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Route, RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import TasksList from "./components/Task/TasksList";
 import ErrorPage from "./common/ErrorPage";
 
@@ -18,10 +18,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
-  },
-  {
-    path: "tasks",
-    element: <TasksList />,
+    children: [
+      {
+        path: "tasks",
+        element: <TasksList />,
+      },
+    ],
   },
 ]);
 
